@@ -1,3 +1,9 @@
 study,name,label,label_de,description,description_de,analysis_unit,conceptual_dataset,period,primary_key,folder,dollar_dataset,minedition
 scp,pgen,Person-related Status and Generated Variables,Personenbezogene generierte Variablen,,,p,gen,0,,,,onsite
+scp,hgen,Household-related Status and Generated Variables,Haushaltsbezogene generierte Variablen,,,h,gen,0,,,,onsite
 scp,p,Variables from the Individual Question Module,Variablen aus dem individuellen Fragenmodul,,,p,org/net,0,,,,onsite
+scp,h,Variables from the Household Question Module,Variablen aus dem Haushaltsfragenmodul,,,h,org/net,0,,,,onsite
+scp,phrf,Weighting and staying probabilities,Gewichte und Bleibewahrscheinlichkeiten,,,p,survey,0,,,,onsite
+scp,hhrf,Weighting and staying probabilities,Gewichte und Bleibewahrscheinlichkeiten,,,h,survey,0,,,,onsite
+scp,ppath,,,,,p,survey,0,,,,onsite
+scp,pbrutto,,,,,p,survey,0,,,,onsite
