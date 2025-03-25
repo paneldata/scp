@@ -1,10 +1,10 @@
 {
   "study": "scp",
   "name": "2021_1",
-  "label": "Questionnaire 2021(1)",
+  "label": "Questionnaire 2021_1",
   "label_de": "Fragebogen 2021_1",
-  "description": "Initial panel recruitment data",
-  "description_de": "Initiale Rekrutierungsdaten",
+  "description": "This questionnaire contains all questions from the first part of wave 1 (W1T1) of the German Social Cohesion Panel (SCP), which is also the recruitment survey for the panel. The survey took place from September 8th, 2021 to April 5th, 2022 and targeted so-called anchor persons (AP) that were initially randomly selected from population registers, as well as all other household members (HM) over the age of 18 named by the anchor persons. The questionnaire consists of two sections: a personal questionnaire and a household questionnaire. Personal questions were generally given to all respondents, while household questions were only asked to the anchor persons. The survey was conducted as a mixed-mode survey (PAPI and CAWI). In addition to the German questionnaire, respondents in the CAWI mode also had an English-language questionnaire available. Further question-specific differences in the questionnaire presentation between the two modes are listed in this document under the respective question. ",
+  "description_de": "Dieser Fragebogen enthält alle Fragen des ersten Teils von Welle 1 (W1T1) des German Social Cohesion Panel (SCP), der zugleich die Rekrutierungsbefragung für das Panel darstellt. Die Befragung fand vom 08.09.2021 bis 05.04.2022 statt und richtete sich an initial zufällig aus Einwohnermelderegistern gezogene sogenannte Ankerpersonen (AP) sowie an alle von den Ankerpersonen genannten weiteren Haushaltsmitglieder (HM) über 18 Jahren.  Der Fragebogen besteht aus zwei Abschnitten: einem Personenfragebogen und einem Haushaltsfragebogen. Fragen zur Person erhielten grundsätzlich alle Befragten, während Fragen zum Haushalt nur den Ankerpersonen gestellt wurden.  Die Umfrage wurde als Mixed-Mode-Befragung (PAPI und CAWI) durchgeführt. Befragten im CAWI-Modus stand neben dem deutschen auch ein englischsprachiger Fragebogen bereit. Weitere, fragespezifische Abweichungen in der Fragebogendarstellung zwischen beiden Modi werden in diesem Dokument unter der jeweiligen Frage aufgeführt.  ",
   "analysis_unit": "p",
   "period": 0,
   "type_position": 1,
@@ -12,29 +12,17 @@
   "type_de": "Person",
   "instrument": "2021_1",
   "questions": {
-    "mode": {
-      "question": "mode",
-      "name": "mode",
-      "label": "Survey Mode",
-      "label_de": "Erhebungsmodus",
+    "M1": {
+      "question": "M1",
+      "name": "M1",
+      "label": "Basic information and controls",
+      "label_de": "Grundinformationen und Steuerungen",
       "items": [
         {
-          "item": "mode",
-          "text": "Survey Mode",
-          "text_de": "Erhebungsmodus",
-          "scale": "cat",
-          "answers": [
-            {
-              "value": 1,
-              "label": "Paper questionnaire, postal (PAPI)",
-              "label_de": "Papierfragebogen, postalisch (PAPI)"
-            },
-            {
-              "value": 2,
-              "label": "Online questionnaire (CAWI)",
-              "label_de": "Online-Fragebogen (CAWI)"
-            }
-          ],
+          "item": "100",
+          "text": "Basic information and controls",
+          "text_de": "Grundinformationen und Steuerungen",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -43,16 +31,47 @@
       "instrument": "2021_1",
       "study": "scp"
     },
-    "Q0": {
-      "question": "Q0",
-      "name": "Q0",
-      "label": "Targetgroup",
-      "label_de": "Zielgruppe",
+    "pgmode": {
+      "question": "pgmode",
+      "name": "pgmode",
+      "label": "Survey Mode",
+      "label_de": "Erhebungsmodus",
       "items": [
         {
-          "item": "ZG",
-          "text": "Targetgroup",
-          "text_de": "Zielgruppe",
+          "item": "pgmode",
+          "text": "Survey Mode",
+          "text_de": "Erhebungsmodus",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 210,
+              "label": "Paper questionnaire, postal (PAPI)",
+              "label_de": "Papierfragebogen, postalisch (PAPI)"
+            },
+            {
+              "value": 300,
+              "label": "Online questionnaire (CAWI)",
+              "label_de": "Online-Fragebogen (CAWI)"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "restype": {
+      "question": "restype",
+      "name": "restype",
+      "label": "Type of respondent",
+      "label_de": "Befragtentyp",
+      "items": [
+        {
+          "item": "restype",
+          "text": "Type of respondent",
+          "text_de": "Befragtentyp",
           "scale": "cat",
           "answers": [
             {
@@ -70,7 +89,131 @@
           "number": ""
         }
       ],
-      "sn": 1,
+      "sn": 2,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "interviewdatum": {
+      "question": "interviewdatum",
+      "name": "interviewdatum",
+      "label": "Interview: date",
+      "label_de": "Interview: Datum",
+      "items": [
+        {
+          "item": "interviewdatum",
+          "text": "Interview: date",
+          "text_de": "Interview: Datum",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "interviewdauer": {
+      "question": "interviewdauer",
+      "name": "interviewdauer",
+      "label": "Interview: length",
+      "label_de": "Interview: Dauer",
+      "items": [
+        {
+          "item": "interviewdauer",
+          "text": "Interview: length",
+          "text_de": "Interview: Dauer",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "interviewsprache": {
+      "question": "interviewsprache",
+      "name": "interviewsprache",
+      "label": "Interview: language",
+      "label_de": "Interview: Sprache",
+      "items": [
+        {
+          "item": "interviewsprache",
+          "text": "Interview: language",
+          "text_de": "Interview: Sprache",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "German",
+              "label_de": "Deutsch"
+            },
+            {
+              "value": 5,
+              "label": "English",
+              "label_de": "Englisch"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "intvollst": {
+      "question": "intvollst",
+      "name": "intvollst",
+      "label": "Interview: compl.",
+      "label_de": "Interview: Vollst.",
+      "items": [
+        {
+          "item": "intvollst",
+          "text": "Interview: compl.",
+          "text_de": "Interview: Vollst.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Completed",
+              "label_de": "Vollständig"
+            },
+            {
+              "value": 2,
+              "label": "Break-off, compl. criteria achieved",
+              "label_de": "Abgebrochen, Vollst.-Kriterium erreicht"
+            },
+            {
+              "value": 3,
+              "label": "Break-off, compl. criteria not achieved",
+              "label_de": "Abgebrochen, Vollst.-Kriterium nicht erreicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "M2": {
+      "question": "M2",
+      "name": "M2",
+      "label": "Individual questionnaire",
+      "label_de": "Personenfragebogen",
+      "items": [
+        {
+          "item": "101",
+          "text": "Individual questionnaire",
+          "text_de": "Personenfragebogen",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -509,7 +652,7 @@
           "number": ""
         }
       ],
-      "sn": 2,
+      "sn": 8,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -587,7 +730,7 @@
           "number": ""
         }
       ],
-      "sn": 3,
+      "sn": 9,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -665,7 +808,7 @@
           "number": ""
         }
       ],
-      "sn": 4,
+      "sn": 10,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -679,7 +822,7 @@
           "item": "ppolatt",
           "text": "In politics, people often talk about 'left' and 'right' to mark different political attitudes. If you think about your own political attitude: Where would you place yourself?",
           "text_de": "In der Politik reden die Leute oft von ,,links“ und ,,rechts“, wenn es darum geht unterschiedliche politische Einstellungen zu kennzeichnen. Wenn Sie an Ihre eigenen politischen Ansichten denken: Wo würden Sie Ihre Ansichten einstufen?",
-          "instruction": "Please answer on the following scale. 0 means 'Entirely left' and 10 means 'Entirely right'.",
+          "instruction": "Please answer on the following scale. 0 means 'entirely left' and 10 means 'entirely right'.",
           "instruction_de": "Bitte antworten Sie mit den Werten von 0 ,,Ganz links“ bis 10 ,,Ganz rechts“.",
           "scale": "cat",
           "answers": [
@@ -743,7 +886,7 @@
           "number": ""
         }
       ],
-      "sn": 5,
+      "sn": 11,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -779,7 +922,7 @@
           "number": ""
         }
       ],
-      "sn": 6,
+      "sn": 12,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -814,7 +957,7 @@
           "number": ""
         }
       ],
-      "sn": 7,
+      "sn": 13,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -870,7 +1013,7 @@
           "number": ""
         }
       ],
-      "sn": 8,
+      "sn": 14,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -901,7 +1044,72 @@
           "number": ""
         }
       ],
-      "sn": 9,
+      "sn": 15,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "Q8a": {
+      "question": "Q8a",
+      "name": "Q8a",
+      "label": "What year was your partner born?",
+      "label_de": "In welchem Jahr ist Ihr Partner/Ihre Partnerin geboren?",
+      "items": [
+        {
+          "item": "8",
+          "text": "What year was your partner born?",
+          "text_de": "In welchem Jahr ist Ihr Partner/Ihre Partnerin geboren?",
+          "filter": "restype: restype=2 & Q8: pcohab=1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "pcohabgebyear",
+          "text": "Year",
+          "text_de": "Jahr",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "Q8b": {
+      "question": "Q8b",
+      "name": "Q8b",
+      "label": "What gender is your partner?",
+      "label_de": "Welches Geschlecht hat Ihr Partner/Ihre Partnerin?",
+      "items": [
+        {
+          "item": "pcohabgender",
+          "text": "What gender is your partner?",
+          "text_de": "Welches Geschlecht hat Ihr Partner/Ihre Partnerin?",
+          "filter": "restype: restype=2 & Q8: pcohab=1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Male",
+              "label_de": "Männlich"
+            },
+            {
+              "value": 2,
+              "label": "Female",
+              "label_de": "Weiblich"
+            },
+            {
+              "value": 3,
+              "label": "Diverse",
+              "label_de": "Divers"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -1060,7 +1268,7 @@
           "number": ""
         }
       ],
-      "sn": 10,
+      "sn": 18,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -1138,7 +1346,7 @@
           "number": ""
         }
       ],
-      "sn": 11,
+      "sn": 19,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -1216,7 +1424,7 @@
           "number": ""
         }
       ],
-      "sn": 12,
+      "sn": 20,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -1238,8 +1446,6 @@
           "item": "psuppo01",
           "text": "... with whom you can discuss intimate and personal matters?",
           "text_de": "… mit denen Sie über vertrauliche und persönliche Angelegenheiten reden können?",
-          "instruction": "[de] … with whom you can discuss intimate and personal matters?",
-          "instruction_de": "… with whom you can discuss intimate and personal matters?",
           "scale": "cat",
           "answers": [
             {
@@ -1322,7 +1528,7 @@
           "number": ""
         }
       ],
-      "sn": 13,
+      "sn": 21,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -1400,7 +1606,7 @@
           "number": ""
         }
       ],
-      "sn": 14,
+      "sn": 22,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2134,7 +2340,7 @@
           "number": ""
         }
       ],
-      "sn": 15,
+      "sn": 23,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2165,7 +2371,7 @@
           "number": ""
         }
       ],
-      "sn": 16,
+      "sn": 24,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2187,7 +2393,7 @@
           "number": ""
         }
       ],
-      "sn": 17,
+      "sn": 25,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2207,7 +2413,7 @@
           "number": ""
         }
       ],
-      "sn": 18,
+      "sn": 26,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2244,7 +2450,7 @@
           "number": ""
         }
       ],
-      "sn": 19,
+      "sn": 27,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2264,7 +2470,7 @@
           "number": ""
         }
       ],
-      "sn": 20,
+      "sn": 28,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2323,7 +2529,7 @@
           "number": ""
         }
       ],
-      "sn": 21,
+      "sn": 29,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2346,7 +2552,7 @@
             },
             {
               "value": 2,
-              "label": "Evangelical/Protestand (Evangelical Church in Germany, without free churches)",
+              "label": "Evangelical/Protestant (Evangelical Church in Germany, without free churches)",
               "label_de": "Evangelisch/Protestantisch (EKD, ohne Freikirchen)"
             },
             {
@@ -2389,7 +2595,7 @@
           "number": ""
         }
       ],
-      "sn": 22,
+      "sn": 30,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2435,7 +2641,7 @@
           "number": ""
         }
       ],
-      "sn": 23,
+      "sn": 31,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2513,7 +2719,7 @@
           "number": ""
         }
       ],
-      "sn": 24,
+      "sn": 32,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2531,27 +2737,27 @@
           "answers": [
             {
               "value": 1,
-              "label": "1 Not at all worried",
+              "label": "Not at all worried",
               "label_de": "Überhaupt nicht besorgt"
             },
             {
               "value": 2,
-              "label": "2 Not very worried",
+              "label": "Not very worried",
               "label_de": "Nicht sehr besorgt"
             },
             {
               "value": 3,
-              "label": "3 Somewhat worried",
+              "label": "Somewhat worried",
               "label_de": "Etwas besorgt"
             },
             {
               "value": 4,
-              "label": "4 Very worried",
+              "label": "Very worried",
               "label_de": "Sehr besorgt"
             },
             {
               "value": 5,
-              "label": "5 Extremely worried",
+              "label": "Extremely worried",
               "label_de": "Äußerst besorgt"
             }
           ],
@@ -2559,7 +2765,7 @@
           "number": ""
         }
       ],
-      "sn": 25,
+      "sn": 33,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2587,7 +2793,7 @@
             },
             {
               "value": 3,
-              "label": "In part",
+              "label": "In Part",
               "label_de": "Teils-teils"
             },
             {
@@ -2605,7 +2811,7 @@
           "number": ""
         }
       ],
-      "sn": 26,
+      "sn": 34,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -2834,7 +3040,7 @@
           "number": ""
         }
       ],
-      "sn": 27,
+      "sn": 35,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -3073,7 +3279,7 @@
           "number": ""
         }
       ],
-      "sn": 28,
+      "sn": 36,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -3302,7 +3508,7 @@
           "number": ""
         }
       ],
-      "sn": 29,
+      "sn": 37,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -3531,7 +3737,7 @@
           "number": ""
         }
       ],
-      "sn": 30,
+      "sn": 38,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -4655,7 +4861,7 @@
           "number": ""
         }
       ],
-      "sn": 31,
+      "sn": 39,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -4681,7 +4887,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4726,7 +4931,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4771,7 +4975,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4816,7 +5019,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4861,7 +5063,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4906,7 +5107,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4951,7 +5151,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -4996,7 +5195,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5041,7 +5239,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5086,7 +5283,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5131,7 +5327,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5176,7 +5371,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5221,7 +5415,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5266,7 +5459,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5311,7 +5503,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5356,7 +5547,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5401,7 +5591,6 @@
           "answers": [
             {
               "value": 1,
-              "label": "None",
               "label_de": "Keiner"
             },
             {
@@ -5439,7 +5628,7 @@
           "number": ""
         }
       ],
-      "sn": 32,
+      "sn": 40,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -5470,7 +5659,7 @@
           "number": ""
         }
       ],
-      "sn": 33,
+      "sn": 41,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -5699,7 +5888,7 @@
           "number": ""
         }
       ],
-      "sn": 34,
+      "sn": 42,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6033,7 +6222,7 @@
           "number": ""
         }
       ],
-      "sn": 35,
+      "sn": 43,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6104,7 +6293,7 @@
           "number": ""
         }
       ],
-      "sn": 36,
+      "sn": 44,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6150,7 +6339,7 @@
           "number": ""
         }
       ],
-      "sn": 37,
+      "sn": 45,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6216,13 +6405,13 @@
           "item": "peduoth01",
           "text": "Please indicate any other degree",
           "text_de": "Bitte sonstigen Abschluss eintragen",
-          "filter": "Q34:pedu01=6",
+          "filter": "Q34: pedu01=6",
           "scale": "chr",
           "sn": 1,
           "number": ""
         }
       ],
-      "sn": 38,
+      "sn": 46,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6272,7 +6461,7 @@
             },
             {
               "value": 7,
-              "label": "Graduation from a technical school in GDR",
+              "label": "Graduation from a technical school in the GDR",
               "label_de": "Abschluss einer Fachschule der DDR"
             },
             {
@@ -6320,7 +6509,7 @@
           "number": ""
         }
       ],
-      "sn": 39,
+      "sn": 47,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6353,17 +6542,17 @@
             },
             {
               "value": 4,
-              "label": "Working a 'mini-job' (up to 450€)",
+              "label": "Working a 'mini-job' (up to € 450)",
               "label_de": "In einem Mini-Job (bis 450,- Euro) "
             },
             {
               "value": 5,
-              "label": "In first-time in-service training (betriebliche Erstausbildung/apprenticeship (Lehre)",
+              "label": "In first-time in-service training (betriebliche Erstausbildung)/apprenticeship (Lehre)",
               "label_de": "In betrieblicher Erstausbildung/Lehre"
             },
             {
               "value": 6,
-              "label": "In further education, retraining, further vocational traning/rehabilitation",
+              "label": "In further education, retraining, further vocational training/rehabilitation",
               "label_de": "In Fortbildung, Umschulung, beruflicher Weiterbildung/Rehabilitation"
             },
             {
@@ -6406,7 +6595,7 @@
           "number": ""
         }
       ],
-      "sn": 40,
+      "sn": 48,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6438,7 +6627,7 @@
           "number": ""
         }
       ],
-      "sn": 41,
+      "sn": 49,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6521,7 +6710,7 @@
           "number": ""
         }
       ],
-      "sn": 42,
+      "sn": 50,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6558,7 +6747,7 @@
           "number": ""
         }
       ],
-      "sn": 43,
+      "sn": 51,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6580,7 +6769,7 @@
           "number": ""
         }
       ],
-      "sn": 44,
+      "sn": 52,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6627,7 +6816,7 @@
           "number": ""
         }
       ],
-      "sn": 45,
+      "sn": 53,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6684,7 +6873,7 @@
           "number": ""
         }
       ],
-      "sn": 46,
+      "sn": 54,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6726,7 +6915,7 @@
           "number": ""
         }
       ],
-      "sn": 47,
+      "sn": 55,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6768,7 +6957,7 @@
           "number": ""
         }
       ],
-      "sn": 48,
+      "sn": 56,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6802,7 +6991,7 @@
             },
             {
               "value": 4,
-              "label": "Foreman / forewoman (Vorarbeiter/Kolonnenführer)",
+              "label": "Foreman/forewoman (Vorarbeiter/Kolonnenführer)",
               "label_de": "Vorarbeiter/-in, Kolonnenführer/-in"
             },
             {
@@ -6815,20 +7004,20 @@
           "number": ""
         }
       ],
-      "sn": 49,
+      "sn": 57,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q46": {
       "question": "Q46",
       "name": "Q46",
-      "label": "What did you earn from your work last month? Please state both: \n– gross income, which means income before deduction of taxes and social security \n– and net income, which means income after deduction of taxes, social security, and unemployment and health insurance",
-      "label_de": "Wie hoch war ihr Arbeitsverdienst im letzten Monat? Bitte geben Sie nach Möglichkeiten beides an: \n– den Bruttoverdienst, das heißt Lohn oder Gehalt vor Abzug von Steuern und Sozialversicherung \n– und den Nettoverdienst, das heißt den Betrag nach Abzug von Steuern und Beiträgen zur Rentenversicherung, Arbeitslosen- und Krankenversicherung\nDer Arbeitsverdienst betrug im letzten Monat…",
+      "label": "What did you earn from your work last month? Please state both:\n\n– gross income, which means income before deduction of taxes and social security\n\n– and net income, which means income after deduction of taxes, social security, and unemployment and health insurance\n\nLast month’s earnings …",
+      "label_de": "Wie hoch war ihr Arbeitsverdienst im letzten Monat? Bitte geben Sie nach Möglichkeiten beides an:\n\n– den Bruttoverdienst, das heißt Lohn oder Gehalt vor Abzug von Steuern und Sozialversicherung\n\n– und den Nettoverdienst, das heißt den Betrag nach Abzug von Steuern und Beiträgen zur Rentenversicherung, Arbeitslosen- und Krankenversicherung\n\nDer Arbeitsverdienst betrug im letzten Monat …",
       "items": [
         {
           "item": "46",
-          "text": "What did you earn from your work last month? Please state both: \n– gross income, which means income before deduction of taxes and social security \n– and net income, which means income after deduction of taxes, social security, and unemployment and health insurance",
-          "text_de": "Wie hoch war ihr Arbeitsverdienst im letzten Monat? Bitte geben Sie nach Möglichkeiten beides an: \n– den Bruttoverdienst, das heißt Lohn oder Gehalt vor Abzug von Steuern und Sozialversicherung \n– und den Nettoverdienst, das heißt den Betrag nach Abzug von Steuern und Beiträgen zur Rentenversicherung, Arbeitslosen- und Krankenversicherung\nDer Arbeitsverdienst betrug im letzten Monat…",
+          "text": "What did you earn from your work last month? Please state both:\n\n– gross income, which means income before deduction of taxes and social security\n\n– and net income, which means income after deduction of taxes, social security, and unemployment and health insurance\n\nLast month’s earnings …",
+          "text_de": "Wie hoch war ihr Arbeitsverdienst im letzten Monat? Bitte geben Sie nach Möglichkeiten beides an:\n\n– den Bruttoverdienst, das heißt Lohn oder Gehalt vor Abzug von Steuern und Sozialversicherung\n\n– und den Nettoverdienst, das heißt den Betrag nach Abzug von Steuern und Beiträgen zur Rentenversicherung, Arbeitslosen- und Krankenversicherung\n\nDer Arbeitsverdienst betrug im letzten Monat …",
           "instruction": "If you received extra income such as vacation pay or back pay, please do not include this. Please do include overtime pay. If you are self-employed: Please estimate your monthly income before and after taxes.",
           "instruction_de": "Wenn Sie im letzten Monat Sonderzahlungen hatten, z. B. Urlaubsgeld oder Nachzahlungen, rechnen Sie diese bitte nicht mit. Entgelt für Überstunden rechnen Sie dagegen mit. Falls Sie selbständig sind: Bitte schätzen Sie Ihren monatlichen Gewinn vor und nach Steuern.",
           "filter": "Q36: pempstat1=1:5",
@@ -6838,22 +7027,16 @@
         },
         {
           "item": "plabincbrut",
-          "text": "...gross",
-          "text_de": "...brutto:",
-          "instruction": "€",
-          "instruction_de": "Euro",
-          "filter": "Q36: pempstat1=1:5",
+          "text": "...gross: €",
+          "text_de": "...brutto: [...] Euro",
           "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "plabincnet",
-          "text": "...net",
-          "text_de": "...netto:",
-          "instruction": "€",
-          "instruction_de": "Euro",
-          "filter": "Q36: pempstat1=1:5",
+          "text": "...net: €",
+          "text_de": "...netto: [...] Euro",
           "scale": "int",
           "sn": 2,
           "number": ""
@@ -6862,13 +7045,12 @@
           "item": "pnolabinc",
           "text": "I was not employed last month.",
           "text_de": "War im letzten Monat nicht erwerbstätig.",
-          "filter": "Q36: pempstat1=1:5",
           "scale": "bin",
           "sn": 3,
           "number": ""
         }
       ],
-      "sn": 50,
+      "sn": 58,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6950,7 +7132,7 @@
           "number": ""
         }
       ],
-      "sn": 51,
+      "sn": 59,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -6961,7 +7143,7 @@
       "label_de": "Zum Schluss haben wir noch einige Fragen zu Ihrem Haushalt. Leben Sie …",
       "items": [
         {
-          "item": "hhhtyp",
+          "item": "phhtyp",
           "text": "Finally, we have some questions about your household. Do you live in ...",
           "text_de": "Zum Schluss haben wir noch einige Fragen zu Ihrem Haushalt. Leben Sie …",
           "scale": "cat",
@@ -6991,7 +7173,7 @@
           "number": ""
         }
       ],
-      "sn": 52,
+      "sn": 60,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7002,18 +7184,18 @@
       "label_de": "Wie viele Personen leben ständig in Ihrem Haushalt, Kinder und _Sie selbst mit eingeschlossen?_",
       "items": [
         {
-          "item": "hhhsize",
+          "item": "phhsize",
           "text": "How many people live permanently in your household, children, and _yourself included?_",
           "text_de": "Wie viele Personen leben ständig in Ihrem Haushalt, Kinder und _Sie selbst mit eingeschlossen?_",
           "instruction": "Number: people in household",
           "instruction_de": "Anzahl: Personen im Haushalt",
-          "filter": "Q48: hhhtyp=1:2",
+          "filter": "Q48: phhtyp=1:2",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 53,
+      "sn": 61,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7027,13 +7209,13 @@
           "item": "50",
           "text": "How many people who live permanently in your household (including yourself), …",
           "text_de": "Wie viele Personen, die ständig in Ihrem Haushalt leben (Sie selbst mit eingeschlossen), …",
-          "filter": "Q49: hhhsize>1",
+          "filter": "Q49: phhsize>1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
-          "item": "hhhage01",
+          "item": "phhage01",
           "text": "\n... are aged 18 or over?",
           "text_de": "… sind 18 Jahre und älter?",
           "instruction": "Number: people",
@@ -7043,27 +7225,27 @@
           "number": ""
         },
         {
-          "item": "hhhage02",
+          "item": "phhage02",
           "text": "... are children under the age of 14?",
           "text_de": "… sind Kinder unter 14 Jahre?",
           "instruction": "Number: people",
           "instruction_de": "Anzahl: Personen",
-          "filter": "Q49: hhhsize>1",
+          "filter": "Q49: phhsize>1",
           "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
-          "item": "hhhage03",
+          "item": "phhage03",
           "text": "There are no children under the age of 14 in my household",
           "text_de": "Keine Kinder unter 14 Jahren im Haushalt",
-          "filter": "Q49: hhhsize>1",
+          "filter": "Q49: phhsize>1",
           "scale": "bin",
           "sn": 3,
           "number": ""
         }
       ],
-      "sn": 54,
+      "sn": 62,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7079,13 +7261,13 @@
           "text_de": "Wenn Sie alle Einkommensarten zusammennehmen: Wie hoch ist das monatliche Netto-Einkommen Ihres Haushaltes insgesamt?",
           "instruction": "Please state the net monthly income, which means after deductions for taxes and social security. Please include regular income such as pensions, housing allowances, child benefits, grants for higher education, maintenance payments, etc. If you do not know the exact amount, please estimate the amount per month.",
           "instruction_de": "Gemeint ist das gesamte Einkommen aller Personen, die zum Haushaltseinkommen beitragen. Also die Summe aus Lohn, Gehalt, Einkommen aus selbständiger Tätigkeit, Rente oder Pension - jeweils nach Abzug der Steuern und Sozialversicherungsbeiträge. Rechnen Sie auch eventuelle Zusatzzahlungen wie Wohn- oder Kindergeld, Einkommen aus Vermietung, Verpachtung und sonstige Einkünfte hinzu. Bei Selbständigen ist das durchschnittliche Netto-Einkommen des Haushalts abzüglich der Betriebs-ausgaben gemeint. Monatliches Haushaltseinkommen: Euro",
-          "filter": "Q48: hhhtyp=1:2",
+          "filter": "Q48: phhtyp=1:2",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
-          "item": "hhhincnet",
+          "item": "phhincnet",
           "text": "Monthly net household income: €",
           "text_de": "Monatliches Netto-Haushaltsnettoeinkommen:",
           "scale": "int",
@@ -7093,7 +7275,7 @@
           "number": ""
         }
       ],
-      "sn": 55,
+      "sn": 63,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7104,10 +7286,10 @@
       "label_de": "Beziehen Sie oder jemand in Ihrem Haushalt derzeit Leistungen der Grundsicherung (z.B. Arbeitslosengeld II/Hartz IV, Grundsicherung im Alter und bei Erwerbsminderung, Hilfe zum Lebensunterhalt)?",
       "items": [
         {
-          "item": "hhhbasup",
+          "item": "phhbasup",
           "text": "Are you or someone else in your household currently receiving basic provision benefits (e.g. Arbeitslosengeld II/Hartz IV, basic old-age security benefits and in case of reduced earning capacity, assistance with subsistence)?",
           "text_de": "Beziehen Sie oder jemand in Ihrem Haushalt derzeit Leistungen der Grundsicherung (z.B. Arbeitslosengeld II/Hartz IV, Grundsicherung im Alter und bei Erwerbsminderung, Hilfe zum Lebensunterhalt)?",
-          "filter": "Q48: hhhtyp=1:2",
+          "filter": "Q48: phhtyp=1:2",
           "scale": "cat",
           "answers": [
             {
@@ -7125,7 +7307,26 @@
           "number": ""
         }
       ],
-      "sn": 56,
+      "sn": 64,
+      "instrument": "2021_1",
+      "study": "scp"
+    },
+    "M3": {
+      "question": "M3",
+      "name": "M3",
+      "label": "Household questionnaire",
+      "label_de": "Haushaltsfragebogen",
+      "items": [
+        {
+          "item": "102",
+          "text": "Household questionnaire",
+          "text_de": "Haushaltsfragebogen",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 65,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7139,13 +7340,13 @@
           "item": "53_1",
           "text": "Now please _to fill in the name, gender, relationship to you, and date of birth for all other people living in your household apart from yourself_. Please start with the oldest person.",
           "text_de": "Nun bitten wir Sie _für alle weiteren im Haushalt lebenden Personen außer Ihnen_ selbst den Vornamen, das Geschlecht, die Beziehung zu Ihnen und das Geburtsdatum einzutragen. Beginnen Sie mit der ältesten Person. ",
-          "filter": "Q0: ZP=1 & Q49: hhhsize>1",
+          "filter": "restype: restype=1 & Q49: phhsize>1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 57,
+      "sn": 66,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7161,27 +7362,27 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q0: ZP=1 & Q49: hhhsize>1",
+          "filter": "restype: restype=1 & Q49: phhsize>1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 58,
+      "sn": 67,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q53b1": {
       "question": "Q53b1",
       "name": "Q53b1",
-      "label": "What gender is hpname01]?",
+      "label": "What gender is [hpname01]?",
       "label_de": "Welches Geschlecht hat [hpname01]?",
       "items": [
         {
           "item": "hpsex01",
-          "text": "What gender is hpname01]?",
+          "text": "What gender is [hpname01]?",
           "text_de": "Welches Geschlecht hat [hpname01]?",
-          "filter": "Q49: hhhsize>1 & Q53a1_1 != 1",
+          "filter": "Q49: phhsize>1 & Q53a1_1: hpname01_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7204,7 +7405,7 @@
           "number": ""
         }
       ],
-      "sn": 59,
+      "sn": 68,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7218,7 +7419,7 @@
           "item": "hprelat01",
           "text": "What is the relationship between [hpname01] and you?",
           "text_de": "In welcher Beziehung steht [hpname01] zu Ihnen?",
-          "filter": "Q49: hhhsize>1 & Q53a1_1: hpname01_check1 != 1",
+          "filter": "Q49: phhsize>1 & Q53a1_1: hpname01_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7238,7 +7439,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -7261,7 +7462,7 @@
           "number": ""
         }
       ],
-      "sn": 60,
+      "sn": 69,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7275,7 +7476,7 @@
           "item": "53d1",
           "text": "What month and year was [hpname01] born?",
           "text_de": "In welchem Monat und Jahr ist [hpname01] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>1 & Q53a1_1: hpname01_check1 != 1",
+          "filter": "Q49: phhsize>1 & Q53a1_1: hpname01_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -7297,7 +7498,7 @@
           "number": ""
         }
       ],
-      "sn": 61,
+      "sn": 70,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7311,7 +7512,7 @@
           "item": "hpall01",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: [hpname01], [hpsex01]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01]",
-          "filter": "Q49: hhhsize>1 & Q53a1_1: hpname01_check1 != 1",
+          "filter": "Q49: phhsize>1 & Q53a1_1: hpname01_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7329,7 +7530,7 @@
           "number": ""
         }
       ],
-      "sn": 62,
+      "sn": 71,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7343,13 +7544,13 @@
           "item": "53_2",
           "text": "We now come to the 2nd _other person_ in your household.",
           "text_de": "Nun kommen wir zur 2. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e1, Q53e1_1: (hhhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1",
+          "filter": "Q53e1, Q53e1_1: (phhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 63,
+      "sn": 72,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7365,13 +7566,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e1, Q53e1_1: (hhhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1",
+          "filter": "Q53e1, Q53e1_1: (phhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 64,
+      "sn": 73,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7385,7 +7586,7 @@
           "item": "hpsex02",
           "text": "What gender is [hpname02]?",
           "text_de": "Welches Geschlecht hat [hpname02]?",
-          "filter": "((hhhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & Q53a2_1: hpname02_check1 != 1",
+          "filter": "((phhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & Q53a2_1: hpname02_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7408,7 +7609,7 @@
           "number": ""
         }
       ],
-      "sn": 65,
+      "sn": 74,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7422,7 +7623,7 @@
           "item": "hprelat02",
           "text": "What is the relationship between [hpname02] and you?",
           "text_de": "In welcher Beziehung steht [hpname02] zu Ihnen?",
-          "filter": "((hhhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & (Q53a2=97 | Q53a2=98)& Q53a2_1: hpname02_check1 != 1",
+          "filter": "((phhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & (Q53a2=97 | Q53a2=98)& Q53a2_1: hpname02_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7442,7 +7643,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -7465,7 +7666,7 @@
           "number": ""
         }
       ],
-      "sn": 66,
+      "sn": 75,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7479,7 +7680,7 @@
           "item": "53d_2",
           "text": "What month and year was [hpname02] born?\nDate of birth:",
           "text_de": "In welchem Monat und Jahr ist [hpname02] geboren? Geburtsdatum:",
-          "filter": "((hhhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & (Q53a2=97 | Q53a2=98) & Q53a2_1: hpname02_check1 != 1",
+          "filter": "((phhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & (Q53a2=97 | Q53a2=98) & Q53a2_1: hpname02_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -7501,7 +7702,7 @@
           "number": ""
         }
       ],
-      "sn": 67,
+      "sn": 76,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7515,7 +7716,7 @@
           "item": "hpall02",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02]",
-          "filter": "((hhhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & (Q53a2=97 | Q53a2=98) & Q53a2_1: hpname02_check1 != 1",
+          "filter": "((phhsize>2 & hpall01=1) | q53_01_check3=1 | q53_01_check4=1) & (Q53a2=97 | Q53a2=98) & Q53a2_1: hpname02_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7533,7 +7734,7 @@
           "number": ""
         }
       ],
-      "sn": 68,
+      "sn": 77,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7547,13 +7748,13 @@
           "item": "53_3",
           "text": "We now come to the 3rd _other person_ in your household.",
           "text_de": "Nun kommen wir zur 3. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e2, Q53e2_1: (hhhsize>3 & hpall02=1) | q53_02_check3=1 | q53_02_check4=1",
+          "filter": "Q53e2, Q53e2_1: (phhsize>3 & hpall02=1) | q53_02_check3=1 | q53_02_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 69,
+      "sn": 78,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7569,13 +7770,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e2, Q53e2_1: (hhhsize>3 & hpall02=1) | q53_02_check3=1 | q53_02_check4=1",
+          "filter": "Q53e2, Q53e2_1: (phhsize>3 & hpall02=1) | q53_02_check3=1 | q53_02_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 70,
+      "sn": 79,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7589,7 +7790,7 @@
           "item": "hpsex03",
           "text": "What gender is [hpname03]?",
           "text_de": "Welches Geschlecht hat [hpname03]?",
-          "filter": "((hhhsize>3 & hpall02=1) | q53_02_check3=1 | q53_02_check4=1) & Q53a3_1: hpname03_check1 != 1",
+          "filter": "((phhsize>3 & hpall02=1) | q53_02_check3=1 | q53_02_check4=1) & Q53a3_1: hpname03_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7612,7 +7813,7 @@
           "number": ""
         }
       ],
-      "sn": 71,
+      "sn": 80,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7626,7 +7827,7 @@
           "item": "hprelat03",
           "text": "What is the relationship between [hpname03] and you?",
           "text_de": "In welcher Beziehung steht [hpname03] zu Ihnen?",
-          "filter": "Q 49: hhhsize>3 & Q53a3_1: hpname03_check1 != 1",
+          "filter": "Q 49: phhsize>3 & Q53a3_1: hpname03_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7646,7 +7847,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -7669,7 +7870,7 @@
           "number": ""
         }
       ],
-      "sn": 72,
+      "sn": 81,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7683,7 +7884,7 @@
           "item": "53d_3",
           "text": "What month and year was [hpname03] born?\nDate of birth:",
           "text_de": "In welchem Monat und Jahr ist [hpname03] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>3 & Q53a3_1: hpname03_check1 != 1",
+          "filter": "Q49: phhsize>3 & Q53a3_1: hpname03_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -7705,7 +7906,7 @@
           "number": ""
         }
       ],
-      "sn": 73,
+      "sn": 82,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7719,7 +7920,7 @@
           "item": "hpall03",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03]",
-          "filter": "Q 49: hhhsize>3 & Q53a3_1: hpname03_check1 != 1",
+          "filter": "Q 49: phhsize>3 & Q53a3_1: hpname03_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7737,7 +7938,7 @@
           "number": ""
         }
       ],
-      "sn": 74,
+      "sn": 83,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7751,13 +7952,13 @@
           "item": "53_4",
           "text": "We now come to the 4th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 4. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e3, Q53e3_1: (hhhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1",
+          "filter": "Q53e3, Q53e3_1: (phhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 75,
+      "sn": 84,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7773,13 +7974,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e3, Q53e3_1: (hhhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1",
+          "filter": "Q53e3, Q53e3_1: (phhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 76,
+      "sn": 85,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7793,7 +7994,7 @@
           "item": "hpsex04",
           "text": "What gender is [hpname04]?",
           "text_de": "Welches Geschlecht hat [hpname04]?",
-          "filter": "((hhhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1) & Q53a4_1: hpname04_check1 != 1",
+          "filter": "((phhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1) & Q53a4_1: hpname04_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7816,7 +8017,7 @@
           "number": ""
         }
       ],
-      "sn": 77,
+      "sn": 86,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7830,7 +8031,7 @@
           "item": "hprelat04",
           "text": "What is the relationship between [hpname04] and you?",
           "text_de": "In welcher Beziehung steht [hpname04] zu Ihnen?",
-          "filter": "Q 49: hhhsize>4 & Q53a4_1: hpname04_check1 != 1",
+          "filter": "Q 49: phhsize>4 & Q53a4_1: hpname04_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7850,7 +8051,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -7873,7 +8074,7 @@
           "number": ""
         }
       ],
-      "sn": 78,
+      "sn": 87,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7887,7 +8088,7 @@
           "item": "53d_4",
           "text": "What month and year was [hpname04] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname04] geboren? Geburtsdatum:",
-          "filter": "Q53e3, Q53e3_1: (hhhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1",
+          "filter": "Q53e3, Q53e3_1: (phhsize>4 & hpall03=1) | q53_03_check3=1 | q53_03_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -7909,7 +8110,7 @@
           "number": ""
         }
       ],
-      "sn": 79,
+      "sn": 88,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7923,7 +8124,7 @@
           "item": "hpall04",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04]",
-          "filter": "Q 49: hhhsize>4 & Q53a4_1: hpname04_check1 != 1",
+          "filter": "Q 49: phhsize>4 & Q53a4_1: hpname04_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -7941,7 +8142,7 @@
           "number": ""
         }
       ],
-      "sn": 80,
+      "sn": 89,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7955,13 +8156,13 @@
           "item": "53_5",
           "text": "We now come to the 5th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 5. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e4, Q53e4_1: (hhhsize>5 & hpall04=1) | q53_04_check3=1 | q53_04_check4=1",
+          "filter": "Q53e4, Q53e4_1: (phhsize>5 & hpall04=1) | q53_04_check3=1 | q53_04_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 81,
+      "sn": 90,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7977,13 +8178,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e4, Q53e4_1: (hhhsize>5 & hpall04=1) | q53_04_check3=1 | q53_04_check4=1",
+          "filter": "Q53e4, Q53e4_1: (phhsize>5 & hpall04=1) | q53_04_check3=1 | q53_04_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 82,
+      "sn": 91,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -7997,7 +8198,7 @@
           "item": "hpsex05",
           "text": "What gender is [hpname05]?",
           "text_de": "Welches Geschlecht hat [hpname05]?",
-          "filter": "((hhhsize>5 & hpall04=1) | q53_04_check3=1 | q53_04_check4=1) & Q53a5_1: hpname05_check1 != 1",
+          "filter": "((phhsize>5 & hpall04=1) | q53_04_check3=1 | q53_04_check4=1) & Q53a5_1: hpname05_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8020,7 +8221,7 @@
           "number": ""
         }
       ],
-      "sn": 83,
+      "sn": 92,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8034,7 +8235,7 @@
           "item": "hprelat05",
           "text": "What is the relationship between [hpname05] and you?",
           "text_de": "In welcher Beziehung steht [hpname05] zu Ihnen?",
-          "filter": "Q49: hhhsize>5 & Q53a5_1: hpname05_check1 != 1",
+          "filter": "Q49: phhsize>5 & Q53a5_1: hpname05_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8054,7 +8255,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -8077,7 +8278,7 @@
           "number": ""
         }
       ],
-      "sn": 84,
+      "sn": 93,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8091,7 +8292,7 @@
           "item": "53d_5",
           "text": "What month and year was [hpname05] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname05] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>5 & Q53a5_1: hpname05_check1 != 1",
+          "filter": "Q49: phhsize>5 & Q53a5_1: hpname05_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -8113,7 +8314,7 @@
           "number": ""
         }
       ],
-      "sn": 85,
+      "sn": 94,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8127,7 +8328,7 @@
           "item": "hpall05",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05]",
-          "filter": "Q49: hhhsize>5 & Q53a5_1: hpname05_check1 != 1",
+          "filter": "Q49: phhsize>5 & Q53a5_1: hpname05_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8145,7 +8346,7 @@
           "number": ""
         }
       ],
-      "sn": 86,
+      "sn": 95,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8159,13 +8360,13 @@
           "item": "53_6",
           "text": "We now come to the 6th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 6. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e5, Q53e5_1: (hhhsize>6 & hpall05=1) | q53_05_check3=1 | q53_05_check4=1",
+          "filter": "Q53e5, Q53e5_1: (phhsize>6 & hpall05=1) | q53_05_check3=1 | q53_05_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 87,
+      "sn": 96,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8181,13 +8382,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e5, Q53e5_1: (hhhsize>6 & hpall05=1) | q53_05_check3=1 | q53_05_check4=1",
+          "filter": "Q53e5, Q53e5_1: (phhsize>6 & hpall05=1) | q53_05_check3=1 | q53_05_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 88,
+      "sn": 97,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8201,7 +8402,7 @@
           "item": "hpsex06",
           "text": "What gender is [hpname06]?",
           "text_de": "Welches Geschlecht hat [hpname06]?",
-          "filter": "((hhhsize>6 & hpall05=1) | q53_05_check3=1 | q53_05_check4=1) & Q53a6_1: hpname06_check1 != 1",
+          "filter": "((phhsize>6 & hpall05=1) | q53_05_check3=1 | q53_05_check4=1) & Q53a6_1: hpname06_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8224,7 +8425,7 @@
           "number": ""
         }
       ],
-      "sn": 89,
+      "sn": 98,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8238,7 +8439,7 @@
           "item": "hprelat06",
           "text": "What is the relationship between [hpname06] and you?",
           "text_de": "In welcher Beziehung steht [hpname06] zu Ihnen?",
-          "filter": "Q49: hhhsize>6& Q53a6_1: hpname06_check1 != 1",
+          "filter": "Q49: phhsize>6& Q53a6_1: hpname06_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8258,7 +8459,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -8281,7 +8482,7 @@
           "number": ""
         }
       ],
-      "sn": 90,
+      "sn": 99,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8295,7 +8496,7 @@
           "item": "53d_6",
           "text": "What month and year was [hpname06] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname06] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>6& Q53a6_1: hpname06_check1 != 1",
+          "filter": "Q49: phhsize>6& Q53a6_1: hpname06_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -8317,7 +8518,7 @@
           "number": ""
         }
       ],
-      "sn": 91,
+      "sn": 100,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8331,7 +8532,7 @@
           "item": "hpall06",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpnam06], [hpse06] ",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpnam06], [hpse06]       ",
-          "filter": "Q49: hhhsize>6& Q53a6_1: hpname06_check1 != 1",
+          "filter": "Q49: phhsize>6& Q53a6_1: hpname06_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8349,7 +8550,7 @@
           "number": ""
         }
       ],
-      "sn": 92,
+      "sn": 101,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8363,13 +8564,13 @@
           "item": "53_7",
           "text": "We now come to the 7th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 7. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e6, Q53e6_1: (hhhsize>7 & hpall06=1) | q53_06_check3=1 | q53_06_check4=1",
+          "filter": "Q53e6, Q53e6_1: (phhsize>7 & hpall06=1) | q53_06_check3=1 | q53_06_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 93,
+      "sn": 102,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8385,13 +8586,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e6, Q53e6_1: (hhhsize>7 & hpall06=1) | q53_06_check3=1 | q53_06_check4=1",
+          "filter": "Q53e6, Q53e6_1: (phhsize>7 & hpall06=1) | q53_06_check3=1 | q53_06_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 94,
+      "sn": 103,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8405,7 +8606,7 @@
           "item": "hpsex07",
           "text": "What gender is [hpname07]?",
           "text_de": "Welches Geschlecht hat [hpname07]?",
-          "filter": "((hhhsize>7 & hpall06=1) | q53_06_check3=1 | q53_06_check4=1) & Q53a7_1: hpname07_check1 != 1",
+          "filter": "((phhsize>7 & hpall06=1) | q53_06_check3=1 | q53_06_check4=1) & Q53a7_1: hpname07_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8428,7 +8629,7 @@
           "number": ""
         }
       ],
-      "sn": 95,
+      "sn": 104,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8442,7 +8643,7 @@
           "item": "hprelat07",
           "text": "What is the relationship between [hpname07] and you?",
           "text_de": "In welcher Beziehung steht [hpname07] zu Ihnen?",
-          "filter": "Q49: hhhsize>7 & Q53a7_1: hpname07_check1 != 1",
+          "filter": "Q49: phhsize>7 & Q53a7_1: hpname07_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8462,7 +8663,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -8485,7 +8686,7 @@
           "number": ""
         }
       ],
-      "sn": 96,
+      "sn": 105,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8499,7 +8700,7 @@
           "item": "53d_7",
           "text": "What month and year was [hpname07] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname07] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>7 & Q53a7_1: hpname07_check1 != 1",
+          "filter": "Q49: phhsize>7 & Q53a7_1: hpname07_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -8521,7 +8722,7 @@
           "number": ""
         }
       ],
-      "sn": 97,
+      "sn": 106,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8535,7 +8736,7 @@
           "item": "hpall07",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far:1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07]       ",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07]       ",
-          "filter": "Q49: hhhsize>7 & Q53a7_1: hpname07_check1 != 1",
+          "filter": "Q49: phhsize>7 & Q53a7_1: hpname07_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8553,7 +8754,7 @@
           "number": ""
         }
       ],
-      "sn": 98,
+      "sn": 107,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8567,13 +8768,13 @@
           "item": "53_8",
           "text": "We now come to the 8th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 8. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e7, Q53e7_1: (hhhsize>8 & hpall07=1) | q53_07_check3=1 | q53_07_check4=1",
+          "filter": "Q53e7, Q53e7_1: (phhsize>8 & hpall07=1) | q53_07_check3=1 | q53_07_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 99,
+      "sn": 108,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8589,13 +8790,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e7, Q53e7_1: (hhhsize>8 & hpall07=1) | q53_07_check3=1 | q53_07_check4=1",
+          "filter": "Q53e7, Q53e7_1: (phhsize>8 & hpall07=1) | q53_07_check3=1 | q53_07_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 100,
+      "sn": 109,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8609,7 +8810,7 @@
           "item": "hpsex08",
           "text": "What gender is [hpname08]?",
           "text_de": "Welches Geschlecht hat [hpname08]?",
-          "filter": "((hhhsize>8 & hpall07=1) | q53_07_check3=1 | q53_07_check4=1) & Q53a8_1: hpname08_check1 != 1",
+          "filter": "((phhsize>8 & hpall07=1) | q53_07_check3=1 | q53_07_check4=1) & Q53a8_1: hpname08_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8632,7 +8833,7 @@
           "number": ""
         }
       ],
-      "sn": 101,
+      "sn": 110,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8646,7 +8847,7 @@
           "item": "hprelat08",
           "text": "What is the relationship between [hpname08] and you?",
           "text_de": "In welcher Beziehung steht [hpname08] zu Ihnen?",
-          "filter": "Q49: hhhsize>8 & Q53a8_1: hpname08_check1 != 1",
+          "filter": "Q49: phhsize>8 & Q53a8_1: hpname08_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8666,7 +8867,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -8689,7 +8890,7 @@
           "number": ""
         }
       ],
-      "sn": 102,
+      "sn": 111,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8703,7 +8904,7 @@
           "item": "53d_8",
           "text": "What month and year was [hpname08] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname08] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>8 & Q53a8_1: hpname08_check1 != 1",
+          "filter": "Q49: phhsize>8 & Q53a8_1: hpname08_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -8725,7 +8926,7 @@
           "number": ""
         }
       ],
-      "sn": 103,
+      "sn": 112,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8739,7 +8940,7 @@
           "item": "hpall08",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08]",
-          "filter": "Q49: hhhsize>8 & Q53a8_1: hpname08_check1 != 1",
+          "filter": "Q49: phhsize>8 & Q53a8_1: hpname08_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8757,7 +8958,7 @@
           "number": ""
         }
       ],
-      "sn": 104,
+      "sn": 113,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8771,13 +8972,13 @@
           "item": "53_9",
           "text": "We now come to the 9th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 9. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e8, Q53e8_1: (hhhsize>9 & hpall08=1) | q53_08_check3=1 | q53_08_check4=1",
+          "filter": "Q53e8, Q53e8_1: (phhsize>9 & hpall08=1) | q53_08_check3=1 | q53_08_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 105,
+      "sn": 114,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8793,13 +8994,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e8, Q53e8_1: (hhhsize>9 & hpall08=1) | q53_08_check3=1 | q53_08_check4=1",
+          "filter": "Q53e8, Q53e8_1: (phhsize>9 & hpall08=1) | q53_08_check3=1 | q53_08_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 106,
+      "sn": 115,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8813,7 +9014,7 @@
           "item": "hpsex09",
           "text": "What gender is [hpname09]?",
           "text_de": "Welches Geschlecht hat [hpname09]?",
-          "filter": "((hhhsize>9 & hpall08=1) | q53_08_check3=1 | q53_08_check4=1) & Q53a9_1: hpname09_check1 != 1",
+          "filter": "((phhsize>9 & hpall08=1) | q53_08_check3=1 | q53_08_check4=1) & Q53a9_1: hpname09_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8836,7 +9037,7 @@
           "number": ""
         }
       ],
-      "sn": 107,
+      "sn": 116,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8850,7 +9051,7 @@
           "item": "hprelat09",
           "text": "What is the relationship between [hpname09] and you?",
           "text_de": "In welcher Beziehung steht [hpname09] zu Ihnen?",
-          "filter": "Q49: hhhsize>9 & Q53a9_1: hpname09_check1 != 1",
+          "filter": "Q49: phhsize>9 & Q53a9_1: hpname09_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8870,7 +9071,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -8893,7 +9094,7 @@
           "number": ""
         }
       ],
-      "sn": 108,
+      "sn": 117,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8907,7 +9108,7 @@
           "item": "53d_9",
           "text": "What month and year was [hpname09] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname09] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>9 & Q53a9_1: hpname09_check1 != 1",
+          "filter": "Q49: phhsize>9 & Q53a9_1: hpname09_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -8929,7 +9130,7 @@
           "number": ""
         }
       ],
-      "sn": 109,
+      "sn": 118,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8943,7 +9144,7 @@
           "item": "hpall09",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09]",
-          "filter": "Q49: hhhsize>9 & Q53a9_1: hpname09_check1 != 1",
+          "filter": "Q49: phhsize>9 & Q53a9_1: hpname09_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -8961,7 +9162,7 @@
           "number": ""
         }
       ],
-      "sn": 110,
+      "sn": 119,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8975,13 +9176,13 @@
           "item": "53_10",
           "text": "We now come to the 10th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 10. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e9, Q53e9_1: (hhhsize>10 & hpall09=1) | q53_09_check3=1 | q53_09_check4=1",
+          "filter": "Q53e9, Q53e9_1: (phhsize>10 & hpall09=1) | q53_09_check3=1 | q53_09_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 111,
+      "sn": 120,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -8997,13 +9198,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e9, Q53e9_1: (hhhsize>10 & hpall09=1) | q53_09_check3=1 | q53_09_check4=1",
+          "filter": "Q53e9, Q53e9_1: (phhsize>10 & hpall09=1) | q53_09_check3=1 | q53_09_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 112,
+      "sn": 121,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9017,7 +9218,7 @@
           "item": "hpsex10",
           "text": "What gender is [hpname10]?",
           "text_de": "Welches Geschlecht hat [hpname10]?",
-          "filter": "((hhhsize>10 & hpall09=1) | q53_09_check3=1 | q53_09_check4=1) & Q53a10_1: hpname10_check1 != 1",
+          "filter": "((phhsize>10 & hpall09=1) | q53_09_check3=1 | q53_09_check4=1) & Q53a10_1: hpname10_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9040,7 +9241,7 @@
           "number": ""
         }
       ],
-      "sn": 113,
+      "sn": 122,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9054,7 +9255,7 @@
           "item": "hprelat10",
           "text": "What is the relationship between [hpname10] and you?",
           "text_de": "In welcher Beziehung steht [hpname10] zu Ihnen?",
-          "filter": "Q49: hhhsize>10 & Q53a10_1: hpname10_check1 != 1",
+          "filter": "Q49: phhsize>10 & Q53a10_1: hpname10_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9074,7 +9275,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -9097,7 +9298,7 @@
           "number": ""
         }
       ],
-      "sn": 114,
+      "sn": 123,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9111,7 +9312,7 @@
           "item": "53d_10",
           "text": "What month and year was [hpname10] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname10] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>10 & Q53a10_1: hpname10_check1 != 1",
+          "filter": "Q49: phhsize>10 & Q53a10_1: hpname10_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -9133,7 +9334,7 @@
           "number": ""
         }
       ],
-      "sn": 115,
+      "sn": 124,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9147,7 +9348,7 @@
           "item": "hpall10",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09] 10. [hpname10], [hpsex10]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09] 10. [hpname10], [hpsex10]",
-          "filter": "Q49: hhhsize>10 & Q53a10_1: hpname10_check1 != 1",
+          "filter": "Q49: phhsize>10 & Q53a10_1: hpname10_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9165,7 +9366,7 @@
           "number": ""
         }
       ],
-      "sn": 116,
+      "sn": 125,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9179,13 +9380,13 @@
           "item": "53_11",
           "text": "We now come to the 11th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 11. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e10, Q53e10_1: (hhhsize>11 & hpall10=1) | q53_10_check3=1 | q53_10_check4=1",
+          "filter": "Q53e10, Q53e10_1: (phhsize>11 & hpall10=1) | q53_10_check3=1 | q53_10_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 117,
+      "sn": 126,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9201,13 +9402,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e10, Q53e10_1: (hhhsize>11 & hpall10=1) | q53_10_check3=1 | q53_10_check4=1",
+          "filter": "Q53e10, Q53e10_1: (phhsize>11 & hpall10=1) | q53_10_check3=1 | q53_10_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 118,
+      "sn": 127,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9221,7 +9422,7 @@
           "item": "hpsex11",
           "text": "What gender is [hpname11]?",
           "text_de": "Welches Geschlecht hat [hpname11]?",
-          "filter": "((hhhsize>11 & hpall10=1) | q53_10_check3=1 | q53_10_check4=1) & Q53a11_1: hpname11_check1 != 1",
+          "filter": "((phhsize>11 & hpall10=1) | q53_10_check3=1 | q53_10_check4=1) & Q53a11_1: hpname11_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9244,7 +9445,7 @@
           "number": ""
         }
       ],
-      "sn": 119,
+      "sn": 128,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9258,7 +9459,7 @@
           "item": "hprelat11",
           "text": "What is the relationship between [hpname11] and you?",
           "text_de": "In welcher Beziehung steht [hpname11] zu Ihnen?",
-          "filter": "Q49: hhhsize>11 & Q53a11_1: hpname11_check1 != 1",
+          "filter": "Q49: phhsize>11 & Q53a11_1: hpname11_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9278,7 +9479,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -9301,7 +9502,7 @@
           "number": ""
         }
       ],
-      "sn": 120,
+      "sn": 129,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9315,7 +9516,7 @@
           "item": "53d_11",
           "text": "What month and year was [hpname11] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname11] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>11 & Q53a11_1: hpname11_check1 != 1",
+          "filter": "Q49: phhsize>11 & Q53a11_1: hpname11_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -9337,7 +9538,7 @@
           "number": ""
         }
       ],
-      "sn": 121,
+      "sn": 130,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9351,7 +9552,7 @@
           "item": "hpall11",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09] 10. [hpname10], [hpsex10] 11. [hpname11], [hpsex11]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09] 10. [hpname10], [hpsex10] 11. [hpname11], [hpsex11]",
-          "filter": "Q49: hhhsize>11 & Q53a11_1: hpname11_check1 != 1",
+          "filter": "Q49: phhsize>11 & Q53a11_1: hpname11_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9369,7 +9570,7 @@
           "number": ""
         }
       ],
-      "sn": 122,
+      "sn": 131,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9383,13 +9584,13 @@
           "item": "53_12",
           "text": "We now come to the 12th _other person_ in your household.",
           "text_de": "Nun kommen wir zur 12. _weiteren Person_ im Haushalt.",
-          "filter": "Q53e11, Q53e11_1: (hhhsize>12 & hpall11=1) | q53_11_check3=1 | q53_11_check4=1",
+          "filter": "Q53e11, Q53e11_1: (phhsize>12 & hpall11=1) | q53_11_check3=1 | q53_11_check4=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 123,
+      "sn": 132,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9405,13 +9606,13 @@
           "text_de": "Wie lautet der Vorname dieser Person?",
           "instruction": "First name of the person:",
           "instruction_de": "Vorname der Person:",
-          "filter": "Q53e11, Q53e11_1: (hhhsize>12 & hpall11=1) | q53_11_check3=1 | q53_11_check4=1",
+          "filter": "Q53e11, Q53e11_1: (phhsize>12 & hpall11=1) | q53_11_check3=1 | q53_11_check4=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 124,
+      "sn": 133,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9425,7 +9626,7 @@
           "item": "hpsex12",
           "text": "What gender is [hpname12]?",
           "text_de": "Welches Geschlecht hat [hpname12]?",
-          "filter": "((hhhsize>12 & hpall11=1) | q53_11_check3=1 | q53_11_check4=1) & Q53a12_1: hpname12_check1 != 1",
+          "filter": "((phhsize>12 & hpall11=1) | q53_11_check3=1 | q53_11_check4=1) & Q53a12_1: hpname12_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9448,7 +9649,7 @@
           "number": ""
         }
       ],
-      "sn": 125,
+      "sn": 134,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9462,7 +9663,7 @@
           "item": "hprelat12",
           "text": "What is the relationship between [hpname12] and you?",
           "text_de": "In welcher Beziehung steht [hpname12] zu Ihnen?",
-          "filter": "Q49: hhhsize>12 & Q53a12_1: hpname12_check1 != 1",
+          "filter": "Q49: phhsize>12 & Q53a12_1: hpname12_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9482,7 +9683,7 @@
             },
             {
               "value": 4,
-              "label": "My mother/father",
+              "label": "My mother/my father",
               "label_de": "Meine Mutter/mein Vater"
             },
             {
@@ -9505,7 +9706,7 @@
           "number": ""
         }
       ],
-      "sn": 126,
+      "sn": 135,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9519,7 +9720,7 @@
           "item": "53d_12",
           "text": "What month and year was [hpname12] born?\nDate of birth",
           "text_de": "In welchem Monat und Jahr ist [hpname12] geboren? Geburtsdatum:",
-          "filter": "Q49: hhhsize>12 & Q53a12_1: hpname12_check1 != 1",
+          "filter": "Q49: phhsize>12 & Q53a12_1: hpname12_check1 != 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -9541,7 +9742,7 @@
           "number": ""
         }
       ],
-      "sn": 127,
+      "sn": 136,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9555,7 +9756,7 @@
           "item": "hpall12",
           "text": "Are there any other people living in the household _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09]  10. [hpname10], [hpsex10] 11. [hpname11], [hpsex11] 12. [hpname12], [hpsex12]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hpname01], [hpsex01] 2. [hpname02], [hpsex02] 3. [hpname03], [hpsex03] 4. [hpname04], [hpsex04] 5. [hpname05], [hpsex05] 6. [hpname06], [hpsex06] 7. [hpname07], [hpsex07] 8. [hpname08], [hpsex08] 9. [hpname09], [hpsex09]  10. [hpname10], [hpsex10] 11. [hpname11], [hpsex11] 12. [hpname12], [hpsex12]",
-          "filter": "Q49: hhhsize>12 & Q53a12_1: hpname12_check1 != 1",
+          "filter": "Q49: phhsize>12 & Q53a12_1: hpname12_check1 != 1",
           "scale": "cat",
           "answers": [
             {
@@ -9573,7 +9774,7 @@
           "number": ""
         }
       ],
-      "sn": 128,
+      "sn": 137,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9593,7 +9794,7 @@
           "number": ""
         }
       ],
-      "sn": 129,
+      "sn": 138,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9624,7 +9825,7 @@
           "number": ""
         }
       ],
-      "sn": 130,
+      "sn": 139,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9640,7 +9841,7 @@
           "text_de": "Wir möchten in dieser Studie auch alle anderen Personen ab 18 Jahren in Ihrem Haushalt befragen. Als Dankeschön für die Teilnahme erhalten auch diese Personen ein Dankschreiben mit 10 Euro im Anschluss an die Befragung. Um diese weiteren Personen in Ihrem Haushalt im Rahmen unserer Studie anschreiben zu können, benötigen wir jeweils den Vornamen, den Nachnamen, das Alter und das Geschlecht. ",
           "instruction": "We are only interested in other people of your household aged 18 or over. Please do not enter yourself.",
           "instruction_de": "Es geht nur um andere Personen im Haushalt ab 18, tragen Sie sich selbst dabei nicht mit ein.",
-          "filter": "Q0: ZP=1 & Q48: hhhtyp=1:2 & Q50: hhhage01>1",
+          "filter": "restype: restype=1 & Q48: phhtyp=1:2 & Q50: phhage01>1",
           "scale": "cat",
           "answers": [
             {
@@ -9658,7 +9859,7 @@
           "number": ""
         }
       ],
-      "sn": 131,
+      "sn": 140,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9674,7 +9875,7 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 1. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55: pnoothp18 = 2",
+          "filter": "Q55: pnoothp18=2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -9696,7 +9897,7 @@
           "number": ""
         }
       ],
-      "sn": 132,
+      "sn": 141,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9716,7 +9917,7 @@
           "number": ""
         }
       ],
-      "sn": 133,
+      "sn": 142,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9753,7 +9954,7 @@
           "number": ""
         }
       ],
-      "sn": 134,
+      "sn": 143,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9785,7 +9986,7 @@
           "number": ""
         }
       ],
-      "sn": 135,
+      "sn": 144,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9801,7 +10002,7 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 2. weiteren Person im Haushalt ab 18 Jahren ein.",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (hhhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
+          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (phhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -9809,7 +10010,7 @@
         {
           "item": "hp181stnam02",
           "text": "Name of the person*:",
-          "text_de": "Vorname der Person:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
@@ -9817,33 +10018,33 @@
         {
           "item": "hp182ndnam02",
           "text": "Surname of the person*:",
-          "text_de": "Nachname der Person:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 136,
+      "sn": 145,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b2": {
       "question": "Q55b2",
       "name": "Q55b2",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age02",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (hhhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (phhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 137,
+      "sn": 146,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9851,13 +10052,13 @@
       "question": "Q55c2",
       "name": "Q55c2",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex02",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (hhhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (phhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -9880,7 +10081,7 @@
           "number": ""
         }
       ],
-      "sn": 138,
+      "sn": 147,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9894,7 +10095,7 @@
           "item": "hp18all02",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far:  1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02]",
-          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (hhhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
+          "filter": "Q55d1, Q55d1_1, Q55d1_2, Q49: (phhage01>2 & hp18all01=1) | q55_01_check1=1 | q55_01_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -9912,7 +10113,7 @@
           "number": ""
         }
       ],
-      "sn": 139,
+      "sn": 148,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9928,49 +10129,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 3. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (hhhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
+          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (phhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam03",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam03",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 140,
+      "sn": 149,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b3": {
       "question": "Q55b3",
       "name": "Q55b3",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age03",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (hhhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (phhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 141,
+      "sn": 150,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -9978,13 +10179,13 @@
       "question": "Q55c3",
       "name": "Q55c3",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex03",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (hhhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (phhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10007,7 +10208,7 @@
           "number": ""
         }
       ],
-      "sn": 142,
+      "sn": 151,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10021,7 +10222,7 @@
           "item": "hp18all03",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03]",
-          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (hhhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
+          "filter": "Q55d2, Q55d2_1, Q55d2_2, Q49: (phhage01>3 & hp18all02=1) | q55_02_check1=1 | q55_02_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10039,7 +10240,7 @@
           "number": ""
         }
       ],
-      "sn": 143,
+      "sn": 152,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10055,49 +10256,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 4. weiteren Person im Haushalt ab 18 Jahren ein.",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (hhhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
+          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (phhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam04",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam04",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 144,
+      "sn": 153,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b4": {
       "question": "Q55b4",
       "name": "Q55b4",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age04",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (hhhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (phhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 145,
+      "sn": 154,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10105,13 +10306,13 @@
       "question": "Q55c4",
       "name": "Q55c4",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex04",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (hhhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (phhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10134,7 +10335,7 @@
           "number": ""
         }
       ],
-      "sn": 146,
+      "sn": 155,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10148,7 +10349,7 @@
           "item": "hp18all04",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04]",
-          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (hhhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
+          "filter": "Q55d3, Q55d3_1, Q55d3_2, Q49: (phhage01>4 & hp18all03=1) | q55_03_check1=1 | q55_03_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10166,7 +10367,7 @@
           "number": ""
         }
       ],
-      "sn": 147,
+      "sn": 156,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10182,49 +10383,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 5. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (hhhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
+          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (phhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam05",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam05",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 148,
+      "sn": 157,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b5": {
       "question": "Q55b5",
       "name": "Q55b5",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age05",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (hhhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (phhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 149,
+      "sn": 158,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10232,13 +10433,13 @@
       "question": "Q55c5",
       "name": "Q55c5",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex05",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (hhhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (phhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10261,7 +10462,7 @@
           "number": ""
         }
       ],
-      "sn": 150,
+      "sn": 159,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10275,7 +10476,7 @@
           "item": "hp18all05",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05]",
-          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (hhhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
+          "filter": "Q55d4, Q55d4_1, Q55d4_2, Q49: (phhage01>5 & hp18all04=1) | q55_04_check1=1 | q55_04_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10293,7 +10494,7 @@
           "number": ""
         }
       ],
-      "sn": 151,
+      "sn": 160,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10309,49 +10510,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 6. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (hhhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
+          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (phhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam06",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam06",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 152,
+      "sn": 161,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b6": {
       "question": "Q55b6",
       "name": "Q55b6",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age06",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (hhhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (phhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 153,
+      "sn": 162,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10359,13 +10560,13 @@
       "question": "Q55c6",
       "name": "Q55c6",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex06",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (hhhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (phhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10388,7 +10589,7 @@
           "number": ""
         }
       ],
-      "sn": 154,
+      "sn": 163,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10402,7 +10603,7 @@
           "item": "hp18all06",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06]",
-          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (hhhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
+          "filter": "Q55d5, Q55d5_1, Q55d5_2, Q49: (phhage01>6 & hp18all05=1) | q55_05_check1=1 | q55_05_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10420,7 +10621,7 @@
           "number": ""
         }
       ],
-      "sn": 155,
+      "sn": 164,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10436,49 +10637,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 7. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (hhhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
+          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (phhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam07",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam07",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 156,
+      "sn": 165,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b7": {
       "question": "Q55b7",
       "name": "Q55b7",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age07",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (hhhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (phhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 157,
+      "sn": 166,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10486,13 +10687,13 @@
       "question": "Q55c7",
       "name": "Q55c7",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex07",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (hhhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (phhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10515,7 +10716,7 @@
           "number": ""
         }
       ],
-      "sn": 158,
+      "sn": 167,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10529,7 +10730,7 @@
           "item": "hp18all07",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07]",
-          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (hhhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
+          "filter": "Q55d6, Q55d6_1, Q55d6_2, Q49: (phhage01>7 & hp18all06=1) | q55_06_check1=1 | q55_06_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10547,7 +10748,7 @@
           "number": ""
         }
       ],
-      "sn": 159,
+      "sn": 168,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10563,49 +10764,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 8. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (hhhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
+          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (phhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam08",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam08",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 160,
+      "sn": 169,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b8": {
       "question": "Q55b8",
       "name": "Q55b8",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age08",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (hhhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (phhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 161,
+      "sn": 170,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10613,13 +10814,13 @@
       "question": "Q55c8",
       "name": "Q55c8",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex08",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (hhhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (phhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10642,7 +10843,7 @@
           "number": ""
         }
       ],
-      "sn": 162,
+      "sn": 171,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10656,7 +10857,7 @@
           "item": "hp18all08",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08]",
-          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (hhhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
+          "filter": "Q55d7, Q55d7_1, Q55d7_2, Q49: (phhage01>8 & hp18all07=1) | q55_07_check1=1 | q55_07_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10674,7 +10875,7 @@
           "number": ""
         }
       ],
-      "sn": 163,
+      "sn": 172,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10690,49 +10891,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 9. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (hhhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
+          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (phhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam09",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam09",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 164,
+      "sn": 173,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b9": {
       "question": "Q55b9",
       "name": "Q55b9",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age09",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (hhhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (phhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 165,
+      "sn": 174,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10740,13 +10941,13 @@
       "question": "Q55c9",
       "name": "Q55c9",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex09",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (hhhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (phhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10769,7 +10970,7 @@
           "number": ""
         }
       ],
-      "sn": 166,
+      "sn": 175,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10783,7 +10984,7 @@
           "item": "hp18all09",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09]",
-          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (hhhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
+          "filter": "Q55d8, Q55d8_1, Q55d8_2, Q49: (phhage01>9 & hp18all08=1) | q55_08_check1=1 | q55_08_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10801,7 +11002,7 @@
           "number": ""
         }
       ],
-      "sn": 167,
+      "sn": 176,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10817,49 +11018,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 10. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (hhhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
+          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (phhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam10",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam10",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 168,
+      "sn": 177,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b10": {
       "question": "Q55b10",
       "name": "Q55b10",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age10",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (hhhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (phhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 169,
+      "sn": 178,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10867,13 +11068,13 @@
       "question": "Q55c10",
       "name": "Q55c10",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex10",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (hhhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (phhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10896,7 +11097,7 @@
           "number": ""
         }
       ],
-      "sn": 170,
+      "sn": 179,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10910,7 +11111,7 @@
           "item": "hp18all10",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09] 10. [hp181stnam10], [hp18sex10]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09] 10. [hp181stnam10], [hp18sex10]",
-          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (hhhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
+          "filter": "Q55d9, Q55d9_1, Q55d9_2, Q49: (phhage01>10 & hp18all09=1) | q55_09_check1=1 | q55_09_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -10928,7 +11129,7 @@
           "number": ""
         }
       ],
-      "sn": 171,
+      "sn": 180,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10944,49 +11145,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 11. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (hhhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
+          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (phhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam11",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam11",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 172,
+      "sn": 181,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b11": {
       "question": "Q55b11",
       "name": "Q55b11",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age11",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (hhhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (phhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 173,
+      "sn": 182,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -10994,13 +11195,13 @@
       "question": "Q55c11",
       "name": "Q55c11",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex11",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (hhhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (phhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -11023,7 +11224,7 @@
           "number": ""
         }
       ],
-      "sn": 174,
+      "sn": 183,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11037,7 +11238,7 @@
           "item": "hp18all11",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09] 10. [hp181stnam10], [hp18sex10] 11. [hp181stnam11], [hp18sex11]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09] 10. [hp181stnam10], [hp18sex10] 11. [hp181stnam11], [hp18sex11]",
-          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (hhhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
+          "filter": "Q55d10, Q55d10_1, Q55d10_2, Q49: (phhage01>11 & hp18all10=1) | q55_10_check1=1 | q55_10_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -11055,7 +11256,7 @@
           "number": ""
         }
       ],
-      "sn": 175,
+      "sn": 184,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11071,49 +11272,49 @@
           "text_de": "Bitte tragen Sie den Vornamen und Nachnamen, das Alter und das Geschlecht der 12. weiteren Person im Haushalt ab 18 Jahren ein",
           "instruction": "We need the fields marked with * (name, surname, age) to send the survey to this other person in the household.",
           "instruction_de": "Die mit * markierten Felder (Vorname, Nachname, Alter) benötigen wir, um dieser weiteren Person im Haushalt den Fragebogen zusenden zu können.",
-          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (hhhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
+          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (phhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hp181stnam12",
-          "text": "Name of the person:",
-          "text_de": "Vorname der Person:",
+          "text": "Name of the person*:",
+          "text_de": "Vorname der Person*:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hp182ndnam12",
-          "text": "Surname of the person:",
-          "text_de": "Nachname der Person:",
+          "text": "Surname of the person*:",
+          "text_de": "Nachname der Person*:",
           "scale": "chr",
           "sn": 2,
           "number": ""
         }
       ],
-      "sn": 176,
+      "sn": 185,
       "instrument": "2021_1",
       "study": "scp"
     },
     "Q55b12": {
       "question": "Q55b12",
       "name": "Q55b12",
-      "label": "Age:",
-      "label_de": "Alter:",
+      "label": "Age*:",
+      "label_de": "Alter*:",
       "items": [
         {
           "item": "hp18age12",
-          "text": "Age:",
-          "text_de": "Alter:",
-          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (hhhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
+          "text": "Age*:",
+          "text_de": "Alter*:",
+          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (phhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
           "scale": "int",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 177,
+      "sn": 186,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11121,13 +11322,13 @@
       "question": "Q55c12",
       "name": "Q55c12",
       "label": "Sex:",
-      "label_de": "Geschlecht:",
+      "label_de": "Gechlecht:",
       "items": [
         {
           "item": "hp18sex12",
           "text": "Sex:",
-          "text_de": "Geschlecht:",
-          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (hhhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
+          "text_de": "Gechlecht:",
+          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (phhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -11150,7 +11351,7 @@
           "number": ""
         }
       ],
-      "sn": 178,
+      "sn": 187,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11164,7 +11365,7 @@
           "item": "hp18all12",
           "text": "Are there any other people living in the household aged 18 or over _apart from yourself_ that you have not listed yet?\nListed so far: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09] 10. [hp181stnam10], [hp18sex10] 11. [hp181stnam11], [hp18sex11] 12. [hp181stnam12], [hp18sex12]",
           "text_de": "Gibt es noch weitere im Haushalt lebende Personen ab 18 Jahren _außer Ihnen selbst_, die Sie noch nicht eingetragen haben? Bisher erfasst: 1. [hp181stnam01], [hp18sex01] 2. [hp181stnam02], [hp18sex02] 3. [hp181stnam03], [hp18sex03] 4. [hp181stnam04], [hp18sex04] 5. [hp181stnam05], [hp18sex05] 6. [hp181stnam06], [hp18sex06] 7. [hp181stnam07], [hp18sex07] 8. [hp181stnam08], [hp18sex08] 9. [hp181stnam09], [hp18sex09] 10. [hp181stnam10], [hp18sex10] 11. [hp181stnam11], [hp18sex11] 12. [hp181stnam12], [hp18sex12]",
-          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (hhhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
+          "filter": "Q55d11, Q55d11_1, Q55d11_2, Q49: (phhage01>12 & hp18all11=1) | q55_11_check1=1 | q55_11_check2=1",
           "scale": "cat",
           "answers": [
             {
@@ -11182,7 +11383,7 @@
           "number": ""
         }
       ],
-      "sn": 179,
+      "sn": 188,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11202,7 +11403,7 @@
           "number": ""
         }
       ],
-      "sn": 180,
+      "sn": 189,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11218,7 +11419,7 @@
           "text_de": "Zur Sicherung der Datenqualität würden wir gerne wissen, mit welchem Gerätetypen Sie an unserer Befragung teilgenommen haben?",
           "instruction": "Please select _everything_ that applies to you.",
           "instruction_de": "Bitte markieren Sie _alles_ Zutreffende.",
-          "filter": "mode: mode=2",
+          "filter": "pgmode: pgmode=300",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -11264,7 +11465,7 @@
           "number": ""
         }
       ],
-      "sn": 181,
+      "sn": 190,
       "instrument": "2021_1",
       "study": "scp"
     },
@@ -11280,13 +11481,13 @@
           "text_de": "Welchen anderen Gerätetyp haben Sie zur Eingabe verwendet?",
           "instruction": "Other device type:",
           "instruction_de": "Anderer Gerätetyp:",
-          "filter": "Q56a: pdevice=05",
+          "filter": "Q56a: pdevice05=1",
           "scale": "chr",
           "sn": 0,
           "number": ""
         }
       ],
-      "sn": 182,
+      "sn": 191,
       "instrument": "2021_1",
       "study": "scp"
     }
