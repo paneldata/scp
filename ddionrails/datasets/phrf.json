@@ -1,0 +1,204 @@
+[
+  {
+    "name": "pid",
+    "dataset": "phrf",
+    "label": "Never Changing Person ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Unveränderliche Personen-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 2110000301.0,
+      "1st Qu.": 2110940602.0,
+      "Median": 2111893002.0,
+      "Mean": 2111897262.1375835,
+      "3rd Qu.": 2112846001.0,
+      "Max.": 2113800001.0,
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "hid",
+    "dataset": "phrf",
+    "label": "Current Household ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Aktuelle Haushalts-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 21100003.0,
+      "1st Qu.": 21109406.0,
+      "Median": 21118930.0,
+      "Mean": 21118972.60824585,
+      "3rd Qu.": 21128460.0,
+      "Max.": 21138000.0,
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "cid",
+    "dataset": "phrf",
+    "label": "Original Household ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Ursprüngliche Haushalts-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 21100003.0,
+      "1st Qu.": 21109406.0,
+      "Median": 21118930.0,
+      "Mean": 21118972.60824585,
+      "3rd Qu.": 21128460.0,
+      "Max.": 21138000.0,
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "wave",
+    "dataset": "phrf",
+    "label": "Survey Wave",
+    "categories": {
+      "values": [
+        1,
+        2
+      ],
+      "labels": [
+        "[1] Wave 1, part 1 (2021/22)",
+        "[2] Wave 1, part 2 (2021/22)"
+      ],
+      "labels_de": [
+        "[1] Welle 1, Teil 1 (2021/22)",
+        "[2] Welle 1, Teil 2 (2021/22)"
+      ],
+      "missings": [
+        false,
+        false
+      ],
+      "frequencies": [
+        17027,
+        9168
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Erhebungswelle",
+    "study": "scp",
+    "statistics": {
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "design_ap",
+    "dataset": "phrf",
+    "label": "Inverse Sampling Probability Anchor Persons",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Inverse Ziehungswahrscheinlichkeit Ankerpersonen",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 0.0,
+      "Median": 1612.620634920635,
+      "Mean": 1368.2287070819318,
+      "3rd Qu.": 2297.7783182192907,
+      "Max.": 2297.7783182192916,
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "design",
+    "dataset": "phrf",
+    "label": "Inverse Sampling Probability",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Inverse Ziehungswahrscheinlichkeit",
+    "study": "scp",
+    "statistics": {
+      "Min.": 70.14618682861328,
+      "1st Qu.": 453.1925964355469,
+      "Median": 1149.13916015625,
+      "Mean": 1005.300537109375,
+      "3rd Qu.": 1149.13916015625,
+      "Max.": 2297.7783203125,
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "phrf",
+    "dataset": "phrf",
+    "label": "Weighting Factor",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Hochrechnungsfaktor",
+    "study": "scp",
+    "statistics": {
+      "Min.": 138.07601283286886,
+      "1st Qu.": 1992.4230273324183,
+      "Median": 3395.3173754325903,
+      "Mean": 5223.069822485209,
+      "3rd Qu.": 6413.954585038786,
+      "Max.": 67220.52627685638,
+      "valid": 26195,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "pbleib",
+    "dataset": "phrf",
+    "label": "Inverse Staying Probability ",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Inverse Bleibewahrscheinlichkeit ",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 0.0,
+      "Median": 0.0,
+      "Mean": 0.6497443914413452,
+      "3rd Qu.": 1.4445062279701233,
+      "Max.": 10.321307182312012,
+      "valid": 26195,
+      "invalid": 0
+    }
+  }
+]

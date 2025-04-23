@@ -1,0 +1,156 @@
+[
+  {
+    "name": "hid",
+    "dataset": "hhrf",
+    "label": "Current Household ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Aktuelle Haushalts-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 21100003.0,
+      "1st Qu.": 21109458.25,
+      "Median": 21119085.0,
+      "Mean": 21119048.60399554,
+      "3rd Qu.": 21128550.75,
+      "Max.": 21138000.0,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "cid",
+    "dataset": "hhrf",
+    "label": "Original Household ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Ursprüngliche Haushalts-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 21100003.0,
+      "1st Qu.": 21109458.25,
+      "Median": 21119085.0,
+      "Mean": 21119048.60399554,
+      "3rd Qu.": 21128550.75,
+      "Max.": 21138000.0,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "wave",
+    "dataset": "hhrf",
+    "label": "Survey Wave",
+    "categories": {
+      "values": [
+        1,
+        2
+      ],
+      "labels": [
+        "[1] Wave 1, part 1 (2021/22)",
+        "[2] Wave 1, part 2 (2021/22)"
+      ],
+      "labels_de": [
+        "[1] Welle 1, Teil 1 (2021/22)",
+        "[2] Welle 1, Teil 2 (2021/22)"
+      ],
+      "missings": [
+        false,
+        false
+      ],
+      "frequencies": [
+        13053,
+        6669
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Erhebungswelle",
+    "study": "scp",
+    "statistics": {
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "design",
+    "dataset": "hhrf",
+    "label": "Inverse Sampling Probability",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Inverse Ziehungswahrscheinlichkeit",
+    "study": "scp",
+    "statistics": {
+      "Min.": 70.14618682861328,
+      "1st Qu.": 537.8736572265625,
+      "Median": 1149.13916015625,
+      "Mean": 1069.5284423828125,
+      "3rd Qu.": 1149.13916015625,
+      "Max.": 2297.7783203125,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "hhrf",
+    "dataset": "hhrf",
+    "label": "Weighting Factor",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Hochrechnungsfaktor",
+    "study": "scp",
+    "statistics": {
+      "Min.": 137.32095336914062,
+      "1st Qu.": 1695.2024536132812,
+      "Median": 2792.342041015625,
+      "Mean": 4111.679344724248,
+      "3rd Qu.": 4995.682861328125,
+      "Max.": 49600.6484375,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "hbleib",
+    "dataset": "hhrf",
+    "label": "Inverse Staying Probability ",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Inverse Bleibewahrscheinlichkeit ",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 0.0,
+      "Median": 0.0,
+      "Mean": 0.6716486215591431,
+      "3rd Qu.": 1.5143726468086243,
+      "Max.": 10.321307182312012,
+      "valid": 19722,
+      "invalid": 0
+    }
+  }
+]

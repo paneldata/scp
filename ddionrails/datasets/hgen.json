@@ -1,0 +1,3318 @@
+[
+  {
+    "name": "hid",
+    "dataset": "hgen",
+    "label": "Current Household ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Aktuelle Haushalts-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 21100003.0,
+      "1st Qu.": 21109458.25,
+      "Median": 21119085.0,
+      "Mean": 21119048.60399554,
+      "3rd Qu.": 21128550.75,
+      "Max.": 21138000.0,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "cid",
+    "dataset": "hgen",
+    "label": "Original Household ID",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Ursprüngliche Haushalts-ID",
+    "study": "scp",
+    "statistics": {
+      "Min.": 21100003.0,
+      "1st Qu.": 21109458.25,
+      "Median": 21119085.0,
+      "Mean": 21119048.60399554,
+      "3rd Qu.": 21128550.75,
+      "Max.": 21138000.0,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "wave",
+    "dataset": "hgen",
+    "label": "Survey Wave",
+    "categories": {
+      "values": [
+        1,
+        2
+      ],
+      "labels": [
+        "[1] Wave 1, part 1 (2021/22)",
+        "[2] Wave 1, part 2 (2021/22)"
+      ],
+      "labels_de": [
+        "[1] Welle 1, Teil 1 (2021/22)",
+        "[2] Welle 1, Teil 2 (2021/22)"
+      ],
+      "missings": [
+        false,
+        false
+      ],
+      "frequencies": [
+        13053,
+        6669
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Erhebungswelle",
+    "study": "scp",
+    "statistics": {
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "bula_scp",
+    "dataset": "hgen",
+    "label": "Federal State",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer",
+        "[5] North Rhine-Westphalia",
+        "[6] Hesse",
+        "[8] Baden-Württemberg",
+        "[9] Bavaria",
+        "[11] Berlin",
+        "[12] Brandenburg",
+        "[13] Mecklenburg-Western Pomerania",
+        "[14] Saxony",
+        "[15] Saxony-Anhalt",
+        "[16] Thuringia",
+        "[17] Bremen/Lower Saxony",
+        "[18] Hamburg/Schleswig-Holstein",
+        "[19] Saarland/Rhineland-Palatinate"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe",
+        "[5] Nordrhein-Westfalen",
+        "[6] Hessen",
+        "[8] Baden-Württemberg",
+        "[9] Bayern",
+        "[11] Berlin",
+        "[12] Brandenburg",
+        "[13] Mecklenburg-Vorpommern",
+        "[14] Sachsen",
+        "[15] Sachsen-Anhalt",
+        "[16] Thüringen",
+        "[17] Bremen/Niedersachsen",
+        "[18] Hamburg/Schleswig-Holstein",
+        "[19] Saarland/Rheinland-Pfalz"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1909,
+        700,
+        1403,
+        1757,
+        599,
+        863,
+        693,
+        1264,
+        612,
+        626,
+        1264,
+        632,
+        731
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Bundesland",
+    "study": "scp",
+    "statistics": {
+      "valid": 13053,
+      "invalid": 6669
+    }
+  },
+  {
+    "name": "hgnuts1_scp",
+    "dataset": "hgen",
+    "label": "NUTS Systematic 1 (Federal State)",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer",
+        "[1] [DE100] Baden-Württemberg",
+        "[2] [DE200] Bavaria",
+        "[3] [DE300] Berlin",
+        "[4] [DE400] Brandenburg",
+        "[7] [DE700] Hesse",
+        "[8] [DE800] Mecklenburg-Western Pomerania",
+        "[10] [DEA00] North Rhine-Westphalia",
+        "[13] [DED00] Saxony",
+        "[14] [DEE00] Saxony-Anhalt",
+        "[16] [DEG00] Thuringia",
+        "[17] [DE500] HB/[DE900] NI",
+        "[18] [DE600] HH/[DEF00] SH",
+        "[19] [DEB00] RP/[DEC00] SL"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe",
+        "[1] [DE100] Baden-Württemberg",
+        "[2] [DE200] Bayern",
+        "[3] [DE300] Berlin",
+        "[4] [DE400] Brandenburg",
+        "[7] [DE700] Hessen",
+        "[8] [DE800] Mecklenburg-Vorpommern",
+        "[10] [DEA00] Nordrhein-Westfalen",
+        "[13] [DED00] Sachsen",
+        "[14] [DEE00] Sachsen-Anhalt",
+        "[16] [DEG00] Thüringen",
+        "[17] [DE500] HB/[DE900] NI",
+        "[18] [DE600] HH/[DEF00] SH",
+        "[19] [DEB00] RP/[DEC00] SL"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1403,
+        1757,
+        599,
+        863,
+        700,
+        693,
+        1909,
+        1264,
+        612,
+        626,
+        1264,
+        632,
+        731
+      ]
+    },
+    "scale": "cat",
+    "label_de": "NUTS Systematik 1 (Bundesland)",
+    "study": "scp",
+    "statistics": {
+      "valid": 13053,
+      "invalid": 6669
+    }
+  },
+  {
+    "name": "ostwest",
+    "dataset": "hgen",
+    "label": "East- vs. West Germany",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer",
+        "[1] West",
+        "[2] East (incl. Berlin)"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe",
+        "[1] West",
+        "[2] Ost (inkl. Berlin)"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8396,
+        4657
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Ost- vs. Westdeutschland",
+    "study": "scp",
+    "statistics": {
+      "valid": 13053,
+      "invalid": 6669
+    }
+  },
+  {
+    "name": "hghhsize",
+    "dataset": "hgen",
+    "label": "HH size (generated)",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        161
+      ]
+    },
+    "scale": "number",
+    "label_de": "HH-Größe (generiert)",
+    "study": "scp",
+    "statistics": {
+      "Min.": 1.0,
+      "1st Qu.": 2.0,
+      "Median": 2.0,
+      "Mean": 2.3917157927396837,
+      "3rd Qu.": 3.0,
+      "Max.": 30.0,
+      "valid": 12892,
+      "invalid": 6830
+    }
+  },
+  {
+    "name": "hghhage01",
+    "dataset": "hgen",
+    "label": "Number HH members 0-13 years (generated)",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        161
+      ]
+    },
+    "scale": "number",
+    "label_de": "Anzahl HH-Mitglieder 0-13 J. (generiert)",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 0.0,
+      "Median": 0.0,
+      "Mean": 0.28645671734408934,
+      "3rd Qu.": 0.0,
+      "Max.": 13.0,
+      "valid": 12892,
+      "invalid": 6830
+    }
+  },
+  {
+    "name": "hghhage02",
+    "dataset": "hgen",
+    "label": "Number HH members 14-17 years (generated)",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        161
+      ]
+    },
+    "scale": "number",
+    "label_de": "Anzahl HH-Mitglieder 14-17 J. (generiert)",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 0.0,
+      "Median": 0.0,
+      "Mean": 0.09331368290412659,
+      "3rd Qu.": 0.0,
+      "Max.": 7.0,
+      "valid": 12892,
+      "invalid": 6830
+    }
+  },
+  {
+    "name": "hghhage03",
+    "dataset": "hgen",
+    "label": "Number HH members 18+ years (generated)",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        6669,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        161
+      ]
+    },
+    "scale": "number",
+    "label_de": "Anzahl HH-Mitglieder 18+ J. (generiert)",
+    "study": "scp",
+    "statistics": {
+      "Min.": 1.0,
+      "1st Qu.": 2.0,
+      "Median": 2.0,
+      "Mean": 2.0119453924914676,
+      "3rd Qu.": 2.0,
+      "Max.": 22.0,
+      "valid": 12892,
+      "invalid": 6830
+    }
+  },
+  {
+    "name": "hghhsize_flag",
+    "dataset": "hgen",
+    "label": "Flag HH size and age groups",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "|S54",
+    "label_de": "Flag HH-Größe und Altersgruppen",
+    "study": "scp",
+    "statistics": {}
+  },
+  {
+    "name": "hgsize",
+    "dataset": "hgen",
+    "label": "Size of Housing Unit in Sq M",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        47,
+        21,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        331
+      ]
+    },
+    "scale": "number",
+    "label_de": "Wohnfläche in qm",
+    "study": "scp",
+    "statistics": {
+      "Min.": 7.0,
+      "1st Qu.": 70.0,
+      "Median": 100.0,
+      "Mean": 108.08589886744298,
+      "3rd Qu.": 131.0,
+      "Max.": 1000.0,
+      "valid": 6269,
+      "invalid": 13453
+    }
+  },
+  {
+    "name": "hgi1size",
+    "dataset": "hgen",
+    "label": "1. Imputed Size of Housing Unit in Sq M [1/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "1. Imput. der Wohnfläche in qm [1/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.34895786428973,
+      "3rd Qu.": 132.0,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi2size",
+    "dataset": "hgen",
+    "label": "2. Imputed Size of Housing Unit in Sq M [2/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "2. Imput. der Wohnfläche in qm [2/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.99999999999999,
+      "Median": 100.00000000000003,
+      "Mean": 108.34600389863547,
+      "3rd Qu.": 132.0,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi3size",
+    "dataset": "hgen",
+    "label": "3. Imputed Size of Housing Unit in Sq M [3/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "3. Imput. der Wohnfläche in qm [3/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.4613135402609,
+      "3rd Qu.": 132.99999999999997,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi4size",
+    "dataset": "hgen",
+    "label": "4. Imputed Size of Housing Unit in Sq M [4/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "4. Imput. der Wohnfläche in qm [4/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.47518368571001,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi5size",
+    "dataset": "hgen",
+    "label": "5. Imputed Size of Housing Unit in Sq M [5/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "5. Imput. der Wohnfläche in qm [5/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.21892337681811,
+      "3rd Qu.": 132.0,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi6size",
+    "dataset": "hgen",
+    "label": "6. Imputed Size of Housing Unit in Sq M [6/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "6. Imput. der Wohnfläche in qm [6/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 70.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.41622432137308,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi7size",
+    "dataset": "hgen",
+    "label": "7. Imputed Size of Housing Unit in Sq M [7/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "7. Imput. der Wohnfläche in qm [7/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.99999999999999,
+      "Median": 100.00000000000003,
+      "Mean": 108.43252361673414,
+      "3rd Qu.": 132.0,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi8size",
+    "dataset": "hgen",
+    "label": "8. Imputed Size of Housing Unit in Sq M [8/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "8. Imput. der Wohnfläche in qm [8/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.44095066738086,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi9size",
+    "dataset": "hgen",
+    "label": "9. Imputed Size of Housing Unit in Sq M [9/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "9. Imput. der Wohnfläche in qm [9/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.25588544009597,
+      "3rd Qu.": 129.99999999999994,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi10size",
+    "dataset": "hgen",
+    "label": "10. Imputed Size of Housing Unit in Sq M [10/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "10. Imput. der Wohnfläche in qm [10/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.4055330634278,
+      "3rd Qu.": 135.00000000000006,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi11size",
+    "dataset": "hgen",
+    "label": "11. Imputed Size of Housing Unit in Sq M [11/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "11. Imput. der Wohnfläche in qm [11/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.10338881391513,
+      "3rd Qu.": 129.99999999999994,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi12size",
+    "dataset": "hgen",
+    "label": "12. Imputed Size of Housing Unit in Sq M [12/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "12. Imput. der Wohnfläche in qm [12/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.55359124329372,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi13size",
+    "dataset": "hgen",
+    "label": "13. Imputed Size of Housing Unit in Sq M [13/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "13. Imput. der Wohnfläche in qm [13/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.5314889788574,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi14size",
+    "dataset": "hgen",
+    "label": "14. Imputed Size of Housing Unit in Sq M [14/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "14. Imput. der Wohnfläche in qm [14/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 70.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.4814065077223,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgi15size",
+    "dataset": "hgen",
+    "label": "15. Imputed Size of Housing Unit in Sq M [15/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        13053,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "15. Imput. der Wohnfläche in qm [15/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 6.999999999999998,
+      "1st Qu.": 71.0,
+      "Median": 100.00000000000003,
+      "Mean": 108.38918878392563,
+      "3rd Qu.": 134.00000000000003,
+      "Max.": 999.9999999999999,
+      "valid": 6669,
+      "invalid": 13053
+    }
+  },
+  {
+    "name": "hgfsize",
+    "dataset": "hgen",
+    "label": "Imputation Flag of Housing Size",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer",
+        "[0] Not imputed",
+        "[1] Imputed"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe",
+        "[0] Nicht imput.",
+        "[1] Imput."
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19322,
+        400
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Imputation Flag, Wohnfläche in qm",
+    "study": "scp",
+    "statistics": {
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "hgowner_scp",
+    "dataset": "hgen",
+    "label": "Tenant or Owner of Dwelling",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer",
+        "[1] Owner",
+        "[2] Main Tenant",
+        "[3] Sub-tenant",
+        "[4] Tenant",
+        "[5] Home Occupant"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe",
+        "[1] Eigentümer",
+        "[2] Hauptmieter",
+        "[3] Untermieter",
+        "[4] Mieter",
+        "[5] Heimbewohner"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        48,
+        7,
+        13053,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        99,
+        3308,
+        2784,
+        412,
+        0,
+        8
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Eigentümer, Mieter",
+    "study": "scp",
+    "statistics": {
+      "valid": 6512,
+      "invalid": 13210
+    }
+  },
+  {
+    "name": "hghinc",
+    "dataset": "hgen",
+    "label": "Monthly HH Net Inc. (EUR)",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        332,
+        659,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        142,
+        2031
+      ]
+    },
+    "scale": "number",
+    "label_de": "Monatl. HH-Nettoeink. (EUR)",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2219.75,
+      "Median": 3400.0,
+      "Mean": 4909.533954226723,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 16552,
+      "invalid": 3170
+    }
+  },
+  {
+    "name": "hgi1hinc",
+    "dataset": "hgen",
+    "label": "1. Imputed Monthly HH Net Inc. (EUR) [1/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "1. Imput. monatl. HH-Nettoeink. (EUR) [1/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4768.652865699558,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi2hinc",
+    "dataset": "hgen",
+    "label": "2. Imputed Monthly HH Net Inc. (EUR) [2/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "2. Imput. monatl. HH-Nettoeink. (EUR) [2/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4757.835977075439,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi3hinc",
+    "dataset": "hgen",
+    "label": "3. Imputed Monthly HH Net Inc. (EUR) [3/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "3. Imput. monatl. HH-Nettoeink. (EUR) [3/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4708.277314138753,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi4hinc",
+    "dataset": "hgen",
+    "label": "4. Imputed Monthly HH Net Inc. (EUR) [4/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "4. Imput. monatl. HH-Nettoeink. (EUR) [4/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2196.9999999999995,
+      "Median": 3299.999999999998,
+      "Mean": 4759.044723751547,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi5hinc",
+    "dataset": "hgen",
+    "label": "5. Imputed Monthly HH Net Inc. (EUR) [5/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "5. Imput. monatl. HH-Nettoeink. (EUR) [5/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2180.0000000000005,
+      "Median": 3299.999999999998,
+      "Mean": 4750.477097099234,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi6hinc",
+    "dataset": "hgen",
+    "label": "6. Imputed Monthly HH Net Inc. (EUR) [6/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "6. Imput. monatl. HH-Nettoeink. (EUR) [6/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2189.3099975585938,
+      "Median": 3299.999999999998,
+      "Mean": 4809.9628432362515,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi7hinc",
+    "dataset": "hgen",
+    "label": "7. Imputed Monthly HH Net Inc. (EUR) [7/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "7. Imput. monatl. HH-Nettoeink. (EUR) [7/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2189.9999999999995,
+      "Median": 3299.999999999998,
+      "Mean": 4720.139519935585,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi8hinc",
+    "dataset": "hgen",
+    "label": "8. Imputed Monthly HH Net Inc. (EUR) [8/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "8. Imput. monatl. HH-Nettoeink. (EUR) [8/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4838.848444381262,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi9hinc",
+    "dataset": "hgen",
+    "label": "9. Imputed Monthly HH Net Inc. (EUR) [9/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "9. Imput. monatl. HH-Nettoeink. (EUR) [9/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 5105.735277375015,
+      "3rd Qu.": 4887.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi10hinc",
+    "dataset": "hgen",
+    "label": "10. Imputed Monthly HH Net Inc. (EUR) [10/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "10. Imput. monatl. HH-Nettoeink. (EUR) [10/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4718.988974486868,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi11hinc",
+    "dataset": "hgen",
+    "label": "11. Imputed Monthly HH Net Inc. (EUR) [11/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "11. Imput. monatl. HH-Nettoeink. (EUR) [11/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4785.267184425642,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi12hinc",
+    "dataset": "hgen",
+    "label": "12. Imputed Monthly HH Net Inc. (EUR) [12/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "12. Imput. monatl. HH-Nettoeink. (EUR) [12/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4866.654016368114,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi13hinc",
+    "dataset": "hgen",
+    "label": "13. Imputed Monthly HH Net Inc. (EUR) [13/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "13. Imput. monatl. HH-Nettoeink. (EUR) [13/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4759.52414047662,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi14hinc",
+    "dataset": "hgen",
+    "label": "14. Imputed Monthly HH Net Inc. (EUR) [14/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "14. Imput. monatl. HH-Nettoeink. (EUR) [14/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4682.139768674108,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgi15hinc",
+    "dataset": "hgen",
+    "label": "15. Imputed Monthly HH Net Inc. (EUR) [15/15]",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer"
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ]
+    },
+    "scale": "number",
+    "label_de": "15. Imput. monatl. HH-Nettoeink. (EUR) [15/15]",
+    "study": "scp",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 2200.0,
+      "Median": 3299.999999999998,
+      "Mean": 4778.452475514086,
+      "3rd Qu.": 4899.999999999998,
+      "Max.": 7100059.999999995,
+      "valid": 19580,
+      "invalid": 142
+    }
+  },
+  {
+    "name": "hgfhinc",
+    "dataset": "hgen",
+    "label": "Imputation Flag of Monthly Net HH Inc.",
+    "categories": {
+      "values": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1
+      ],
+      "labels": [
+        "[-10] Break-off [only CAWI]",
+        "[-9] Don't want to answer [only CAWI]",
+        "[-8] Question not part of the survey program this year",
+        "[-7] Only available in less restricted edition",
+        "[-6] Version of questionnaire with modified filtering",
+        "[-5] Not included in this version of the questionnaire",
+        "[-4] Inadmissible multiple response",
+        "[-3] Implausible value",
+        "[-2] Does not apply",
+        "[-1] No answer",
+        "[0] Not imputed",
+        "[1] Imputed"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe",
+        "[0] Nicht imput.",
+        "[1] Imput."
+      ],
+      "missings": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16694,
+        3028
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Imputation Flag, monatl. HH-Nettoeink.",
+    "study": "scp",
+    "statistics": {
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "hghmonth",
+    "dataset": "hgen",
+    "label": "HH-Related Survey Month",
+    "categories": {
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "labels": [
+        "[1] January",
+        "[2] February",
+        "[3] March",
+        "[4] April",
+        "[5] May",
+        "[6] June",
+        "[7] July",
+        "[8] August",
+        "[9] September",
+        "[10] October",
+        "[11] November",
+        "[12] December"
+      ],
+      "labels_de": [
+        "[1] Januar",
+        "[2] Februar",
+        "[3] März",
+        "[4] April",
+        "[5] Mai",
+        "[6] Juni",
+        "[7] Juli",
+        "[8] August",
+        "[9] September",
+        "[10] Oktober",
+        "[11] November",
+        "[12] Dezember"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        2391,
+        1270,
+        684,
+        404,
+        723,
+        178,
+        48,
+        0,
+        7779,
+        3820,
+        878,
+        1547
+      ]
+    },
+    "scale": "cat",
+    "label_de": "HH-bezogener Erhebungsmonat",
+    "study": "scp",
+    "statistics": {
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "iyear",
+    "dataset": "hgen",
+    "label": "HH-Related Survey Year",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "HH-bezogenes Erhebungsjahr",
+    "study": "scp",
+    "statistics": {
+      "Min.": 2021.0,
+      "1st Qu.": 2021.0,
+      "Median": 2021.0,
+      "Mean": 2021.288915931447,
+      "3rd Qu.": 2022.0,
+      "Max.": 2022.0,
+      "valid": 19722,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "hghmode",
+    "dataset": "hgen",
+    "label": "Survey Mode",
+    "categories": {
+      "values": [
+        210,
+        300
+      ],
+      "labels": [
+        "[210] Paper questionnaire, postal (PAPI)",
+        "[300] Online questionnaire (CAWI)"
+      ],
+      "labels_de": [
+        "[210] Papierfragebogen, postalisch (PAPI)",
+        "[300] Online-Fragebogen (CAWI)"
+      ],
+      "missings": [
+        false,
+        false
+      ],
+      "frequencies": [
+        11909,
+        7813
+      ]
+    },
+    "scale": "cat",
+    "label_de": "Erhebungsmodus",
+    "study": "scp",
+    "statistics": {
+      "valid": 19722,
+      "invalid": 0
+    }
+  }
+]
