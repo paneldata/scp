@@ -1931,7 +1931,7 @@
         "[1] Full-time employed",
         "[2] Part-time employed",
         "[3] Short-time work",
-        "[4] Working a 'mini-job' (up to  450)",
+        "[4] Working a 'mini-job' (up to € 450)",
         "[5] In first-time in-service training (betriebliche Erstausbildung)/apprenticeship (Lehre)",
         "[6] In further education, retraining, further vocational training/rehabilitation",
         "[7] On maternity/parental leave",
@@ -2639,6 +2639,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -19592,6 +19604,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -19659,6 +19683,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -19728,6 +19764,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -19795,6 +19843,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -19864,6 +19924,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -19931,6 +20003,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -20000,6 +20084,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -20067,6 +20163,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -20136,6 +20244,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -20203,6 +20323,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -20272,6 +20404,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -20339,6 +20483,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -26423,6 +26579,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -26490,6 +26658,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -26559,6 +26739,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -26626,6 +26818,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -26695,6 +26899,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -26762,6 +26978,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -26831,6 +27059,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -26898,6 +27138,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -26967,6 +27219,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27034,6 +27298,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -27103,6 +27379,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27170,6 +27458,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -27239,6 +27539,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27306,6 +27618,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -27375,6 +27699,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27442,6 +27778,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -27595,6 +27943,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27662,6 +28022,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -27731,6 +28103,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27798,6 +28182,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -27867,6 +28263,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -27934,6 +28342,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -28003,6 +28423,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -28070,6 +28502,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -28139,6 +28583,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -28206,6 +28662,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -28275,6 +28743,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -28342,6 +28822,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -28411,6 +28903,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -28478,6 +28982,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -28547,6 +29063,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -28614,6 +29142,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,

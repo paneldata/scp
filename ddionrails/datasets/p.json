@@ -368,6 +368,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -2814,7 +2826,7 @@
         "[-1] No answer",
         "[1] Married",
         "[2] Registered same-sex partnership",
-        "[3] Single, Ive never been married",
+        "[3] Single, I’ve never been married",
         "[4] Divorced",
         "[5] Registered same-sex partnership annulled",
         "[6] Widowed",
@@ -4587,7 +4599,7 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer",
-        "[0] 0 You cant be too careful",
+        "[0] 0 You can’t be too careful",
         "[1] 1",
         "[2] 2",
         "[3] 3",
@@ -4809,7 +4821,7 @@
   {
     "name": "pinsttrust02",
     "dataset": "p",
-    "label": "Trust: Germanys parliament",
+    "label": "Trust: Germany’s parliament",
     "categories": {
       "values": [
         -10,
@@ -6826,7 +6838,7 @@
         "[372] Irland",
         "[376] Israel",
         "[380] Italien",
-        "[384] Côte dIvoire",
+        "[384] Côte d’Ivoire",
         "[388] Jamaika",
         "[392] Japan",
         "[398] Kasachstan",
@@ -9353,7 +9365,7 @@
         "[-1] No answer",
         "[1] Yes",
         "[2] No",
-        "[3] Dont know [only PAPI]"
+        "[3] Don’t know [only PAPI]"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -9442,7 +9454,7 @@
         "[-1] No answer",
         "[1] Yes",
         "[2] No",
-        "[3] Dont know [only PAPI]"
+        "[3] Don’t know [only PAPI]"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -9543,7 +9555,7 @@
         "[6] Muslim/Islam",
         "[7] Far Eastern religious communities like Buddhism, Hinduism, Sikh, Shinto, Tao",
         "[8] Another religion or confession",
-        "[9] No, I dont have any religion or confession"
+        "[9] No, I don’t have any religion or confession"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -10676,7 +10688,7 @@
         "[3] Sometimes",
         "[4] Often",
         "[5] Always",
-        "[6] I dont work"
+        "[6] I don’t work"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -14658,7 +14670,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -14767,7 +14779,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -14876,7 +14888,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -14985,7 +14997,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15094,7 +15106,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15203,7 +15215,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15312,7 +15324,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15421,7 +15433,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15530,7 +15542,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15639,7 +15651,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15748,7 +15760,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15857,7 +15869,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -15966,7 +15978,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -16075,7 +16087,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -16184,7 +16196,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -16293,7 +16305,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -16402,7 +16414,7 @@
         "[4] Many of them",
         "[5] Most of them",
         "[6] All of them",
-        "[7] Dont know"
+        "[7] Don’t know"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -18230,7 +18242,7 @@
   {
     "name": "preldepriv",
     "dataset": "p",
-    "label": "Deprivation: Getting ones fair share",
+    "label": "Deprivation: Getting one’s fair share",
     "categories": {
       "values": [
         -10,
@@ -18633,7 +18645,7 @@
         "[1] Full-time employed",
         "[2] Part-time employed",
         "[3] Short-time work",
-        "[4] Working a 'mini-job' (up to  450)",
+        "[4] Working a 'mini-job' (up to € 450)",
         "[5] In first-time in-service training (betriebliche Erstausbildung)/apprenticeship (Lehre)",
         "[6] In further education, retraining, further vocational training/rehabilitation",
         "[7] On maternity/parental leave",
@@ -19291,9 +19303,9 @@
         "[2] University graduate in a freelance profession (doctor, lawyer, tax consultant, etc.) with no employees",
         "[3] University graduate in a freelance profession (doctor, lawyer, tax consultant, etc.) with one to four employees",
         "[4] University graduate in a freelance profession (doctor, lawyer, tax consultant, etc.) with five or more employees",
-        "[5] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with no employees",
-        "[6] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with one to four employees",
-        "[7] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with five or more employees"
+        "[5] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with no employees",
+        "[6] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with one to four employees",
+        "[7] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with five or more employees"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -19677,6 +19689,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -19829,6 +19853,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -19917,7 +19953,7 @@
         "[8] Other",
         "[9] I would not vote",
         "[10] I am not eligible to vote",
-        "[11] Dont know [only PAPI]"
+        "[11] Don’t know [only PAPI]"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -20204,6 +20240,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -20272,6 +20320,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -20339,6 +20399,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -20491,6 +20563,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -21323,7 +21407,7 @@
       ],
       "labels": [
         "[-10] Break-off [only CAWI]",
-        "[-9] Dont want to answer [only CAWI]",
+        "[-9] Don’t want to answer [only CAWI]",
         "[-8] Question not part of the survey program this year",
         "[-7] Only available in less restricted edition",
         "[-6] Version of questionnaire with modified filtering",
@@ -25016,7 +25100,7 @@
   {
     "name": "pfollow05",
     "dataset": "p",
-    "label": "Soc. Media: NGOs, citizens initiatives, activists",
+    "label": "Soc. Media: NGOs, citizens’ initiatives, activists",
     "categories": {
       "values": [
         -10,
@@ -28452,6 +28536,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -29223,7 +29319,7 @@
         "[372] Irland",
         "[376] Israel",
         "[380] Italien",
-        "[384] Côte dIvoire",
+        "[384] Côte d’Ivoire",
         "[388] Jamaika",
         "[392] Japan",
         "[398] Kasachstan",
@@ -30517,9 +30613,9 @@
         "[2] University graduate in a freelance position (doctor, lawyer, tax consultant, etc.) with no employees",
         "[3] University graduate in a freelance position (doctor, lawyer, tax consultant, etc.) with one to four employees",
         "[4] University graduate in a freelance position (doctor, lawyer, tax consultant, etc.) with five or more employees",
-        "[5] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with no employees",
-        "[6] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with one to four employees",
-        "[7] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with five or more employees"
+        "[5] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with no employees",
+        "[6] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with one to four employees",
+        "[7] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with five or more employees"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -30704,6 +30800,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -31476,7 +31584,7 @@
         "[372] Irland",
         "[376] Israel",
         "[380] Italien",
-        "[384] Côte dIvoire",
+        "[384] Côte d’Ivoire",
         "[388] Jamaika",
         "[392] Japan",
         "[398] Kasachstan",
@@ -32770,9 +32878,9 @@
         "[2] University graduate in a freelance position (doctor, lawyer, tax consultant, etc.) with no employees",
         "[3] University graduate in a freelance position (doctor, lawyer, tax consultant, etc.) with one to four employees",
         "[4] University graduate in a freelance position (doctor, lawyer, tax consultant, etc.) with five or more employees",
-        "[5] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with no employees",
-        "[6] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with one to four employees",
-        "[7] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers member with five or more employees"
+        "[5] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with no employees",
+        "[6] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with one to four employees",
+        "[7] Self-employed in trade, hospitality, crafts, industry, services, also Me Incorporated or GDR Producers’ member with five or more employees"
       ],
       "labels_de": [
         "[-10] Abbruch [nur CAWI]",
@@ -33536,7 +33644,7 @@
   {
     "name": "pfathbeh08",
     "dataset": "p",
-    "label": "Parenting father: wasnt as nice when disagreement",
+    "label": "Parenting father: wasn’t as nice when disagreement",
     "categories": {
       "values": [
         -10,
@@ -34328,7 +34436,7 @@
   {
     "name": "pmothbeh08",
     "dataset": "p",
-    "label": "Parenting mother: wasnt as nice when disagreement",
+    "label": "Parenting mother: wasn’t as nice when disagreement",
     "categories": {
       "values": [
         -10,
@@ -34724,7 +34832,7 @@
   {
     "name": "psocdes04",
     "dataset": "p",
-    "label": "Soc. desirab.: too much change & didnt say",
+    "label": "Soc. desirab.: too much change & didn’t say",
     "categories": {
       "values": [
         -10,
@@ -35021,7 +35129,7 @@
   {
     "name": "pconpec01",
     "dataset": "p",
-    "label": "IE-4: Im my own boss",
+    "label": "IE-4: I’m my own boss",
     "categories": {
       "values": [
         -10,
@@ -36769,7 +36877,7 @@
   {
     "name": "pschwartz14",
     "dataset": "p",
-    "label": "Schwartz: government insures ones safety",
+    "label": "Schwartz: government insures one’s safety",
     "categories": {
       "values": [
         -10,
@@ -37185,7 +37293,7 @@
   {
     "name": "pschwartz18",
     "dataset": "p",
-    "label": "Schwartz: be loyal to ones friends",
+    "label": "Schwartz: be loyal to one’s friends",
     "categories": {
       "values": [
         -10,
@@ -39997,6 +40105,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -40679,6 +40799,18 @@
         "[-2] Does not apply",
         "[-1] No answer"
       ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
+      ],
       "missings": [
         true,
         true,
@@ -40939,6 +41071,18 @@
         "[-3] Implausible value",
         "[-2] Does not apply",
         "[-1] No answer"
+      ],
+      "labels_de": [
+        "[-10] Abbruch [nur CAWI]",
+        "[-9] Möchte ich nicht beantworten [nur CAWI]",
+        "[-8] Frage in diesem Jahr nicht Teil des Frageprogramms",
+        "[-7] Nur in weniger eingeschränkter Edition verfügbar",
+        "[-6] Fragebogenversion mit geänderter Filterführung",
+        "[-5] In Fragebogenversion nicht enthalten",
+        "[-4] Unzulässige Mehrfachantwort",
+        "[-3] Nicht valide",
+        "[-2] Trifft nicht zu",
+        "[-1] Keine Angabe"
       ],
       "missings": [
         true,
@@ -44645,7 +44789,7 @@
   {
     "name": "pactivity07",
     "dataset": "p",
-    "label": "Leisure: participation in political parties, citizens initiatives",
+    "label": "Leisure: participation in political parties, citizens’ initiatives",
     "categories": {
       "values": [
         -10,
