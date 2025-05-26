@@ -3,7 +3,7 @@ scp,pgen,Person-related Status and Generated Variables,Personenbezogene generier
 scp,hgen,Household-related Status and Generated Variables,Haushaltsbezogene generierte Variablen,,,h,gen,0,,,,onsite
 scp,p,Variables from the Individual Question Module,Variablen aus dem individuellen Fragenmodul,,,p,org/net,0,,,,onsite
 scp,h,Variables from the Household Question Module,Variablen aus dem Haushaltsfragenmodul,,,h,org/net,0,,,,onsite
-scp,phrf,Weighting and staying probabilities,Gewichte und Bleibewahrscheinlichkeiten,,,p,survey,0,,,,onsite
-scp,hhrf,Weighting and staying probabilities,Gewichte und Bleibewahrscheinlichkeiten,,,h,survey,0,,,,onsite
-scp,ppath,,,,,p,survey,0,,,,onsite
-scp,pbrutto,,,,,p,survey,0,,,,onsite
+scp,phrf,Person-related Weighting and Staying Probabilities,Personenbezogene Gewichte und Bleibewahrscheinlichkeiten,,,p,gen,0,,,,onsite
+scp,hhrf,Household-related Weighting and Staying Probabilities,Haushaltsbezogene Gewichte und Bleibewahrscheinlichkeiten,,,h,gen,0,,,,onsite
+scp,ppath,Person-related Meta Dataset,Personenbezogene Metadaten,,,p,track,0,,,,onsite
+scp,pbrutto,Person-related Gross Data,Personenbezogene Bruttodaten,,,p,org/gross,0,,,,onsite
