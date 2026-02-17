@@ -7,3 +7,4 @@ scp,phrf,Person-related Weighting and Staying Probabilities,Personenbezogene Gew
 scp,hhrf,Household-related Weighting and Staying Probabilities,Haushaltsbezogene Gewichte und Bleibewahrscheinlichkeiten,,,h,gen,0,,,,onsite
 scp,ppath,Person-related Meta Dataset,Personenbezogene Metadaten,,,p,track,0,,,,onsite
 scp,pbrutto,Person-related Gross Data,Personenbezogene Bruttodaten,,,p,org/gross,0,,,,onsite
+scp,region,Household-related Regional Data,Haushaltsbezogene Regionaldaten,,,h,gen,0,,,,onsite

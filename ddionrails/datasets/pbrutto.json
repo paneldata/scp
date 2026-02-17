@@ -11,15 +11,15 @@
     },
     "scale": "number",
     "label_de": "Unveränderliche Personen-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 2110000101.0,
-      "1st Qu.": 2110947626.0,
-      "Median": 2111895801.0,
-      "Mean": 2111898361.8355737,
-      "3rd Qu.": 2112847501.75,
-      "Max.": 2113800001.0,
-      "valid": 87638,
+      "1st Qu.": 2110946976.0,
+      "Median": 2111893601.0,
+      "Mean": 2111901238.3838673,
+      "3rd Qu.": 2112852301.25,
+      "Max.": 2210389603.0,
+      "valid": 67552,
       "invalid": 0
     }
   },
@@ -35,15 +35,15 @@
     },
     "scale": "number",
     "label_de": "Aktuelle Haushalts-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 21100001.0,
-      "1st Qu.": 21109476.25,
-      "Median": 21118958.0,
-      "Mean": 21118983.606631827,
-      "3rd Qu.": 21128475.0,
-      "Max.": 21138000.0,
-      "valid": 87638,
+      "1st Qu.": 21109470.0,
+      "Median": 21118937.0,
+      "Mean": 21119101.191941023,
+      "3rd Qu.": 21128524.0,
+      "Max.": 22125622.0,
+      "valid": 67552,
       "invalid": 0
     }
   },
@@ -59,15 +59,15 @@
     },
     "scale": "number",
     "label_de": "Ursprüngliche Haushalts-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 21100001.0,
-      "1st Qu.": 21109476.25,
-      "Median": 21118958.0,
-      "Mean": 21118983.606631827,
-      "3rd Qu.": 21128475.0,
+      "1st Qu.": 21109468.75,
+      "Median": 21118935.5,
+      "Mean": 21118997.568066083,
+      "3rd Qu.": 21128523.0,
       "Max.": 21138000.0,
-      "valid": 87638,
+      "valid": 67552,
       "invalid": 0
     }
   },
@@ -78,30 +78,35 @@
     "categories": {
       "values": [
         1,
-        2
+        2,
+        3
       ],
       "labels": [
         "[1] Wave 1, part 1 (2021/22)",
-        "[2] Wave 1, part 2 (2021/22)"
+        "[2] Wave 1, part 2 (2021/22)",
+        "[3] Wave 2 (2022/23)"
       ],
       "labels_de": [
         "[1] Welle 1, Teil 1 (2021/22)",
-        "[2] Welle 1, Teil 2 (2021/22)"
+        "[2] Welle 1, Teil 2 (2021/22)",
+        "[3] Welle 2 (2022/23)"
       ],
       "missings": [
+        false,
         false,
         false
       ],
       "frequencies": [
         43819,
-        43819
+        11654,
+        12079
       ]
     },
     "scale": "cat",
     "label_de": "Erhebungswelle",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 87638,
+      "valid": 67552,
       "invalid": 0
     }
   },
@@ -131,16 +136,16 @@
         false
       ],
       "frequencies": [
-        75923,
-        11715,
-        0
+        55435,
+        11633,
+        484
       ]
     },
     "scale": "cat",
     "label_de": "Befragtentyp ",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 87638,
+      "valid": 67552,
       "invalid": 0
     }
   },
@@ -542,100 +547,100 @@
         0,
         0,
         0,
-        11890,
-        762,
-        28,
+        12613,
+        568,
+        16,
+        6,
         12,
-        20,
-        34,
-        44,
-        60,
-        108,
-        136,
-        134,
-        180,
-        228,
-        314,
-        280,
-        462,
-        450,
-        560,
-        622,
-        670,
-        792,
-        862,
-        928,
-        708,
-        724,
-        766,
-        598,
-        552,
-        756,
-        772,
-        950,
-        1018,
-        998,
-        1094,
-        1104,
-        1054,
-        1132,
-        1202,
-        1090,
-        1266,
-        1310,
-        1320,
-        1414,
-        1558,
-        1582,
-        1542,
-        1548,
-        1504,
-        1410,
-        1436,
-        1338,
-        1324,
-        1226,
-        1130,
-        1006,
-        1000,
-        1006,
-        1046,
-        1022,
-        1060,
-        1032,
-        1150,
-        1172,
-        1118,
-        1196,
-        1094,
-        1148,
-        1222,
-        1282,
-        1250,
-        1188,
-        1122,
-        1114,
-        1136,
-        1060,
-        976,
-        944,
-        954,
-        942,
-        1032,
-        940,
-        968,
+        19,
+        24,
+        36,
+        62,
+        85,
+        80,
+        103,
+        142,
+        182,
+        162,
+        287,
+        292,
+        368,
+        393,
+        429,
+        530,
+        596,
+        605,
+        493,
+        484,
+        535,
+        439,
+        388,
+        564,
+        580,
+        717,
+        776,
+        745,
+        788,
+        843,
+        815,
+        840,
+        853,
+        849,
+        937,
+        936,
+        978,
+        1026,
+        1165,
+        1123,
+        1157,
+        1179,
+        1065,
+        1019,
+        1070,
+        971,
         966,
+        881,
+        836,
+        698,
+        694,
+        699,
+        702,
+        731,
+        757,
+        750,
+        806,
+        874,
         796,
-        614,
-        80
+        874,
+        781,
+        866,
+        885,
+        931,
+        959,
+        892,
+        847,
+        853,
+        860,
+        772,
+        712,
+        714,
+        673,
+        713,
+        743,
+        706,
+        722,
+        731,
+        628,
+        493,
+        62
       ]
     },
     "scale": "cat",
     "label_de": "Geburtsjahr",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 74986,
-      "invalid": 12652
+      "valid": 54371,
+      "invalid": 13181
     }
   },
   {
@@ -708,18 +713,18 @@
         0,
         0,
         0,
-        11890,
+        12613,
         8,
-        37240,
-        38500
+        27252,
+        27679
       ]
     },
     "scale": "cat",
     "label_de": "Geschlecht",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 75740,
-      "invalid": 11898
+      "valid": 54931,
+      "invalid": 12621
     }
   },
   {
@@ -792,52 +797,18 @@
         0,
         0,
         0,
-        11890,
-        3576,
-        63068,
-        9104
+        12613,
+        2574,
+        46848,
+        5517
       ]
     },
     "scale": "cat",
     "label_de": "Staatsangehörigkeit",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 72172,
-      "invalid": 15466
-    }
-  },
-  {
-    "name": "befstat",
-    "dataset": "pbrutto",
-    "label": "Survey Status",
-    "categories": {
-      "values": [
-        1,
-        7
-      ],
-      "labels": [
-        "[1] Re-Survey",
-        "[7] Not To Be Surveyed Refused"
-      ],
-      "labels_de": [
-        "[1] Erneut zu befragen",
-        "[7] Nicht zu befragen, da harte Verweigerung in Vorwelle/n"
-      ],
-      "missings": [
-        false,
-        false
-      ],
-      "frequencies": [
-        23244,
-        64394
-      ]
-    },
-    "scale": "cat",
-    "label_de": "Befragungsstatus",
-    "study": "scp",
-    "statistics": {
-      "valid": 87638,
-      "invalid": 0
+      "valid": 52365,
+      "invalid": 15187
     }
   },
   {
@@ -848,34 +819,39 @@
       "values": [
         0,
         1,
-        2
+        2,
+        3
       ],
       "labels": [
         "[0] No Interview",
-        "[1] Survey Year 2021 Part 1",
-        "[2] Survey Year 2021 Part 2"
+        "[1] Wave 1, part 1 (2021/22)",
+        "[2] Wave 1, part 2 (2021/22)",
+        "[3] Wave 2 (2022/23)"
       ],
       "labels_de": [
         "[0] Bisher kein Interview",
-        "[1] Erhebungsjahr 2021 Teil 1",
-        "[2] Erhebungsjahr 2021 Teil 2"
+        "[1] Welle 1, Teil 1 (2021/22)",
+        "[2] Welle 1, Teil 2 (2021/22)",
+        "[3] Welle 2 (2022/23)"
       ],
       "missings": [
+        false,
         false,
         false,
         false
       ],
       "frequencies": [
-        53584,
-        24886,
-        9168
+        27002,
+        21390,
+        10518,
+        8642
       ]
     },
     "scale": "cat",
     "label_de": "Letztes Interview in Welle",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 87638,
+      "valid": 67552,
       "invalid": 0
     }
   },
@@ -957,29 +933,29 @@
         false
       ],
       "frequencies": [
-        25403,
-        507,
-        25657,
+        33782,
+        675,
+        127,
         4,
-        285,
-        32165,
-        94,
-        1,
-        87,
+        380,
+        28476,
+        127,
+        2,
+        93,
         8,
-        852,
-        109,
-        152,
+        891,
+        199,
+        473,
         1962,
         345,
-        7
+        8
       ]
     },
     "scale": "cat",
     "label_de": "AAPOR Klassifizierung Person",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 87638,
+      "valid": 67552,
       "invalid": 0
     }
   }
