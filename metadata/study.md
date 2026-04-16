@@ -15,8 +15,8 @@ config:
 * **Title:** German Social Cohesion Panel (SCP)
 * **Authors:** Olaf Groh-Samberg, Julian B. Axenfeld, Jean-Yves Gerlitz, Carina Cornesse, Martin Kroh, Holger Lengfeld, Stefan Liebig, Lara Minkus, Jost Reinecke, Nils Teichler, Richard Traunmüller, Sabine Zinn
 * Publications using these data should cite the DOI (doi:10.60532/scp.2021-22.w1-2.v1) and include the following reference:
-Groh-Samberg, O., Axenfeld, J. B., Gerlitz, J.-Y., Cornesse, C., Kroh, M., Lengfeld, H., Liebig, S., Minkus, L., Reinecke, J., Richter, D., Teichler, N., Traunmüller, R., & Zinn, S. (2024). German Social Cohesion Panel 2021/22 – Wave 1. Dataset and Documentation.
-doi:10.60532/scp.2021_22.w1.v1
+Groh-Samberg, O., Axenfeld, J. B., Gerlitz, J.-Y., Cornesse, C., Kroh, M., Lengfeld, H., Liebig, S., Minkus, L., Reinecke, J., Teichler, N., Traunmüller, R., & Zinn, S. (2026). German Social Cohesion Panel 2021-2022 – Wave 1-2. Dataset and Documentation.
+doi:10.60532/scp.2021-22.w1-2.v1
 
 ## Study Info
 
