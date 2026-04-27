@@ -11,15 +11,15 @@
     },
     "scale": "number",
     "label_de": "Aktuelle Haushalts-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 21100003.0,
-      "1st Qu.": 21109458.25,
-      "Median": 21119085.0,
-      "Mean": 21119048.60399554,
-      "3rd Qu.": 21128550.75,
-      "Max.": 21138000.0,
-      "valid": 19722,
+      "1st Qu.": 21109445.25,
+      "Median": 21119081.5,
+      "Mean": 21119276.782591876,
+      "3rd Qu.": 21128550.0,
+      "Max.": 22125622.0,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -35,15 +35,15 @@
     },
     "scale": "number",
     "label_de": "Ursprüngliche Haushalts-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 21100003.0,
-      "1st Qu.": 21109458.25,
-      "Median": 21119085.0,
-      "Mean": 21119048.60399554,
-      "3rd Qu.": 21128550.75,
+      "1st Qu.": 21109445.0,
+      "Median": 21119079.0,
+      "Mean": 21119044.67427466,
+      "3rd Qu.": 21128544.25,
       "Max.": 21138000.0,
-      "valid": 19722,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -54,30 +54,35 @@
     "categories": {
       "values": [
         1,
-        2
+        2,
+        3
       ],
       "labels": [
         "[1] Wave 1, part 1 (2021/22)",
-        "[2] Wave 1, part 2 (2021/22)"
+        "[2] Wave 1, part 2 (2021/22)",
+        "[3] Wave 2 (2022/23)"
       ],
       "labels_de": [
         "[1] Welle 1, Teil 1 (2021/22)",
-        "[2] Welle 1, Teil 2 (2021/22)"
+        "[2] Welle 1, Teil 2 (2021/22)",
+        "[3] Welle 2 (2022/23)"
       ],
       "missings": [
+        false,
         false,
         false
       ],
       "frequencies": [
         13053,
-        6669
+        6669,
+        6128
       ]
     },
     "scale": "cat",
     "label_de": "Erhebungswelle",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 19722,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -196,28 +201,28 @@
         0,
         0,
         0,
-        0,
-        1909,
-        700,
-        1403,
-        1757,
-        599,
-        863,
-        693,
-        1264,
-        612,
-        626,
-        1264,
-        632,
-        731
+        5,
+        2797,
+        1024,
+        2033,
+        2579,
+        878,
+        1283,
+        1011,
+        1878,
+        888,
+        919,
+        1849,
+        946,
+        1091
       ]
     },
     "scale": "cat",
     "label_de": "Bundesland",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 13053,
-      "invalid": 6669
+      "valid": 19176,
+      "invalid": 6674
     }
   },
   {
@@ -335,34 +340,34 @@
         0,
         0,
         0,
-        0,
-        1403,
-        1757,
-        599,
-        863,
-        700,
-        693,
-        1909,
-        1264,
-        612,
-        626,
-        1264,
-        632,
-        731
+        5,
+        2033,
+        2579,
+        878,
+        1283,
+        1024,
+        1011,
+        2797,
+        1878,
+        888,
+        919,
+        1849,
+        946,
+        1091
       ]
     },
     "scale": "cat",
     "label_de": "NUTS Systematik 1 (Bundesland)",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 13053,
-      "invalid": 6669
+      "valid": 19176,
+      "invalid": 6674
     }
   },
   {
     "name": "ostwest",
     "dataset": "hgen",
-    "label": "East- vs. West Germany",
+    "label": "Eastern vs. Western Germany",
     "categories": {
       "values": [
         -10,
@@ -430,17 +435,17 @@
         0,
         0,
         0,
-        0,
-        8396,
-        4657
+        5,
+        12319,
+        6857
       ]
     },
     "scale": "cat",
     "label_de": "Ost- vs. Westdeutschland",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 13053,
-      "invalid": 6669
+      "valid": 19176,
+      "invalid": 6674
     }
   },
   {
@@ -506,21 +511,21 @@
         0,
         0,
         0,
-        161
+        238
       ]
     },
     "scale": "number",
     "label_de": "HH-Größe (generiert)",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 1.0,
       "1st Qu.": 2.0,
       "Median": 2.0,
-      "Mean": 2.3917157927396837,
+      "Mean": 2.3712189199176477,
       "3rd Qu.": 3.0,
       "Max.": 30.0,
-      "valid": 12892,
-      "invalid": 6830
+      "valid": 18943,
+      "invalid": 6907
     }
   },
   {
@@ -586,21 +591,21 @@
         0,
         0,
         0,
-        161
+        238
       ]
     },
     "scale": "number",
     "label_de": "Anzahl HH-Mitglieder 0-13 J. (generiert)",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 0.0,
       "Median": 0.0,
-      "Mean": 0.28645671734408934,
+      "Mean": 0.28263738584173576,
       "3rd Qu.": 0.0,
       "Max.": 13.0,
-      "valid": 12892,
-      "invalid": 6830
+      "valid": 18943,
+      "invalid": 6907
     }
   },
   {
@@ -666,21 +671,21 @@
         0,
         0,
         0,
-        161
+        238
       ]
     },
     "scale": "number",
     "label_de": "Anzahl HH-Mitglieder 14-17 J. (generiert)",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 0.0,
       "Median": 0.0,
-      "Mean": 0.09331368290412659,
+      "Mean": 0.08995407274454943,
       "3rd Qu.": 0.0,
       "Max.": 7.0,
-      "valid": 12892,
-      "invalid": 6830
+      "valid": 18943,
+      "invalid": 6907
     }
   },
   {
@@ -746,21 +751,21 @@
         0,
         0,
         0,
-        161
+        238
       ]
     },
     "scale": "number",
     "label_de": "Anzahl HH-Mitglieder 18+ J. (generiert)",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 1.0,
       "1st Qu.": 2.0,
       "Median": 2.0,
-      "Mean": 2.0119453924914676,
+      "Mean": 1.9986274613313626,
       "3rd Qu.": 2.0,
       "Max.": 22.0,
-      "valid": 12892,
-      "invalid": 6830
+      "valid": 18943,
+      "invalid": 6907
     }
   },
   {
@@ -775,7 +780,7 @@
     },
     "scale": "54",
     "label_de": "Flag HH-Größe und Altersgruppen",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {}
   },
   {
@@ -832,30 +837,30 @@
         true
       ],
       "frequencies": [
-        47,
-        21,
+        138,
+        91,
         13053,
         0,
         0,
         0,
         0,
-        1,
+        2,
         0,
-        331
+        564
       ]
     },
     "scale": "number",
     "label_de": "Wohnfläche in qm",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 7.0,
-      "1st Qu.": 70.0,
+      "1st Qu.": 71.0,
       "Median": 100.0,
-      "Mean": 108.08589886744298,
-      "3rd Qu.": 131.0,
+      "Mean": 106.82697633727713,
+      "3rd Qu.": 130.0,
       "Max.": 1000.0,
-      "valid": 6269,
-      "invalid": 13453
+      "valid": 12002,
+      "invalid": 13848
     }
   },
   {
@@ -926,15 +931,15 @@
     },
     "scale": "number",
     "label_de": "1. Imput. der Wohnfläche in qm [1/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.34895786428973,
-      "3rd Qu.": 132.0,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.0975361412831,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1006,15 +1011,15 @@
     },
     "scale": "number",
     "label_de": "2. Imput. der Wohnfläche in qm [2/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.99999999999999,
-      "Median": 100.00000000000003,
-      "Mean": 108.34600389863547,
-      "3rd Qu.": 132.0,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 71.0,
+      "Median": 100.0,
+      "Mean": 107.0799226381183,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1086,15 +1091,15 @@
     },
     "scale": "number",
     "label_de": "3. Imput. der Wohnfläche in qm [3/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
+      "Min.": 7.0,
       "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.4613135402609,
-      "3rd Qu.": 132.99999999999997,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Median": 100.0,
+      "Mean": 107.12771508947411,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1166,15 +1171,15 @@
     },
     "scale": "number",
     "label_de": "4. Imput. der Wohnfläche in qm [4/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.47518368571001,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.035787293897,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1246,15 +1251,15 @@
     },
     "scale": "number",
     "label_de": "5. Imput. der Wohnfläche in qm [5/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.21892337681811,
-      "3rd Qu.": 132.0,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.08354692506056,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1326,15 +1331,15 @@
     },
     "scale": "number",
     "label_de": "6. Imput. der Wohnfläche in qm [6/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 70.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.41622432137308,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.29148784871454,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1406,15 +1411,15 @@
     },
     "scale": "number",
     "label_de": "7. Imput. der Wohnfläche in qm [7/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.99999999999999,
-      "Median": 100.00000000000003,
-      "Mean": 108.43252361673414,
-      "3rd Qu.": 132.0,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 71.59,
+      "Median": 100.0,
+      "Mean": 107.20628037821365,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1486,15 +1491,15 @@
     },
     "scale": "number",
     "label_de": "8. Imput. der Wohnfläche in qm [8/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.44095066738086,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.10784949597563,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1566,15 +1571,15 @@
     },
     "scale": "number",
     "label_de": "9. Imput. der Wohnfläche in qm [9/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.25588544009597,
-      "3rd Qu.": 129.99999999999994,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.10607720559506,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1646,15 +1651,15 @@
     },
     "scale": "number",
     "label_de": "10. Imput. der Wohnfläche in qm [10/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
+      "Min.": 7.0,
       "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.4055330634278,
-      "3rd Qu.": 135.00000000000006,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Median": 100.0,
+      "Mean": 106.97657732281003,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1726,15 +1731,15 @@
     },
     "scale": "number",
     "label_de": "11. Imput. der Wohnfläche in qm [11/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.10338881391513,
-      "3rd Qu.": 129.99999999999994,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.10580370399312,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1806,15 +1811,15 @@
     },
     "scale": "number",
     "label_de": "12. Imput. der Wohnfläche in qm [12/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
+      "Min.": 7.0,
       "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.55359124329372,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Median": 100.0,
+      "Mean": 107.14876689849183,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1886,15 +1891,15 @@
     },
     "scale": "number",
     "label_de": "13. Imput. der Wohnfläche in qm [13/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.5314889788574,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.15758146440572,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -1966,15 +1971,15 @@
     },
     "scale": "number",
     "label_de": "14. Imput. der Wohnfläche in qm [14/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 70.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.4814065077223,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.30020864265062,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -2046,15 +2051,15 @@
     },
     "scale": "number",
     "label_de": "15. Imput. der Wohnfläche in qm [15/15]",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 6.999999999999998,
-      "1st Qu.": 71.0,
-      "Median": 100.00000000000003,
-      "Mean": 108.38918878392563,
-      "3rd Qu.": 134.00000000000003,
-      "Max.": 999.9999999999999,
-      "valid": 6669,
+      "Min.": 7.0,
+      "1st Qu.": 72.0,
+      "Median": 100.0,
+      "Mean": 107.06008986481206,
+      "3rd Qu.": 130.0,
+      "Max.": 1000.0,
+      "valid": 12797,
       "invalid": 13053
     }
   },
@@ -2130,15 +2135,15 @@
         0,
         0,
         0,
-        19322,
-        400
+        25055,
+        795
       ]
     },
     "scale": "cat",
     "label_de": "Imputation Flag, Wohnfläche in qm",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 19722,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -2216,35 +2221,35 @@
         false
       ],
       "frequencies": [
-        48,
-        7,
+        142,
+        31,
         13053,
         0,
         0,
         0,
-        3,
+        5,
         0,
         0,
-        99,
-        3308,
-        2784,
-        412,
+        161,
+        6297,
+        5378,
+        770,
         0,
-        8
+        13
       ]
     },
     "scale": "cat",
     "label_de": "Eigentümer, Mieter",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 6512,
-      "invalid": 13210
+      "valid": 12458,
+      "invalid": 13392
     }
   },
   {
     "name": "hghinc",
     "dataset": "hgen",
-    "label": "Monthly HH Net Inc. (EUR)",
+    "label": "Monthly HH Net Inc. (Euros)",
     "categories": {
       "values": [
         -10,
@@ -2295,36 +2300,36 @@
         true
       ],
       "frequencies": [
-        332,
-        659,
+        441,
+        1012,
         0,
         0,
         0,
         0,
         0,
-        6,
+        9,
         142,
-        2031
+        2293
       ]
     },
     "scale": "number",
-    "label_de": "Monatl. HH-Nettoeink. (EUR)",
-    "study": "scp",
+    "label_de": "Monatl. HH-Nettoeink. (Euro)",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
-      "1st Qu.": 2219.75,
+      "1st Qu.": 2200.0,
       "Median": 3400.0,
-      "Mean": 4909.533954226723,
+      "Mean": 4537.788198423906,
       "3rd Qu.": 5000.0,
       "Max.": 7100060.0,
-      "valid": 16552,
-      "invalid": 3170
+      "valid": 21953,
+      "invalid": 3897
     }
   },
   {
     "name": "hgi1hinc",
     "dataset": "hgen",
-    "label": "1. Imputed Monthly HH Net Inc. (EUR) [1/15]",
+    "label": "1. Imputed Monthly HH Net Inc. (Euros) [1/15]",
     "categories": {
       "values": [
         -10,
@@ -2388,23 +2393,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "1. Imput. monatl. HH-Nettoeink. (EUR) [1/15]",
-    "study": "scp",
+    "label_de": "1. Imput. monatl. HH-Nettoeink. (Euro) [1/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4768.652865699558,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3400.0,
+      "Mean": 4955.303207950831,
+      "3rd Qu.": 4952.049999999999,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi2hinc",
     "dataset": "hgen",
-    "label": "2. Imputed Monthly HH Net Inc. (EUR) [2/15]",
+    "label": "2. Imputed Monthly HH Net Inc. (Euros) [2/15]",
     "categories": {
       "values": [
         -10,
@@ -2468,23 +2473,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "2. Imput. monatl. HH-Nettoeink. (EUR) [2/15]",
-    "study": "scp",
+    "label_de": "2. Imput. monatl. HH-Nettoeink. (Euro) [2/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4757.835977075439,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4505.088722187646,
+      "3rd Qu.": 4900.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi3hinc",
     "dataset": "hgen",
-    "label": "3. Imputed Monthly HH Net Inc. (EUR) [3/15]",
+    "label": "3. Imputed Monthly HH Net Inc. (Euros) [3/15]",
     "categories": {
       "values": [
         -10,
@@ -2548,23 +2553,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "3. Imput. monatl. HH-Nettoeink. (EUR) [3/15]",
-    "study": "scp",
+    "label_de": "3. Imput. monatl. HH-Nettoeink. (Euro) [3/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4708.277314138753,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4397.685366811887,
+      "3rd Qu.": 4910.9175000000005,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi4hinc",
     "dataset": "hgen",
-    "label": "4. Imputed Monthly HH Net Inc. (EUR) [4/15]",
+    "label": "4. Imputed Monthly HH Net Inc. (Euros) [4/15]",
     "categories": {
       "values": [
         -10,
@@ -2628,23 +2633,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "4. Imput. monatl. HH-Nettoeink. (EUR) [4/15]",
-    "study": "scp",
+    "label_de": "4. Imput. monatl. HH-Nettoeink. (Euro) [4/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
-      "1st Qu.": 2196.9999999999995,
-      "Median": 3299.999999999998,
-      "Mean": 4759.044723751547,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "1st Qu.": 2200.0,
+      "Median": 3302.585,
+      "Mean": 4452.871084098335,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi5hinc",
     "dataset": "hgen",
-    "label": "5. Imputed Monthly HH Net Inc. (EUR) [5/15]",
+    "label": "5. Imputed Monthly HH Net Inc. (Euros) [5/15]",
     "categories": {
       "values": [
         -10,
@@ -2708,23 +2713,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "5. Imput. monatl. HH-Nettoeink. (EUR) [5/15]",
-    "study": "scp",
+    "label_de": "5. Imput. monatl. HH-Nettoeink. (Euro) [5/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
-      "1st Qu.": 2180.0000000000005,
-      "Median": 3299.999999999998,
-      "Mean": 4750.477097099234,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "1st Qu.": 2200.0,
+      "Median": 3300.0,
+      "Mean": 4475.845620429437,
+      "3rd Qu.": 4986.0199999999995,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi6hinc",
     "dataset": "hgen",
-    "label": "6. Imputed Monthly HH Net Inc. (EUR) [6/15]",
+    "label": "6. Imputed Monthly HH Net Inc. (Euros) [6/15]",
     "categories": {
       "values": [
         -10,
@@ -2788,23 +2793,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "6. Imput. monatl. HH-Nettoeink. (EUR) [6/15]",
-    "study": "scp",
+    "label_de": "6. Imput. monatl. HH-Nettoeink. (Euro) [6/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
-      "1st Qu.": 2189.3099975585938,
-      "Median": 3299.999999999998,
-      "Mean": 4809.9628432362515,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "1st Qu.": 2200.0,
+      "Median": 3300.0,
+      "Mean": 4405.657583631555,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi7hinc",
     "dataset": "hgen",
-    "label": "7. Imputed Monthly HH Net Inc. (EUR) [7/15]",
+    "label": "7. Imputed Monthly HH Net Inc. (Euros) [7/15]",
     "categories": {
       "values": [
         -10,
@@ -2868,23 +2873,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "7. Imput. monatl. HH-Nettoeink. (EUR) [7/15]",
-    "study": "scp",
+    "label_de": "7. Imput. monatl. HH-Nettoeink. (Euro) [7/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
-      "1st Qu.": 2189.9999999999995,
-      "Median": 3299.999999999998,
-      "Mean": 4720.139519935585,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "1st Qu.": 2200.0,
+      "Median": 3350.0,
+      "Mean": 4708.2447316010575,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi8hinc",
     "dataset": "hgen",
-    "label": "8. Imputed Monthly HH Net Inc. (EUR) [8/15]",
+    "label": "8. Imputed Monthly HH Net Inc. (Euros) [8/15]",
     "categories": {
       "values": [
         -10,
@@ -2948,23 +2953,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "8. Imput. monatl. HH-Nettoeink. (EUR) [8/15]",
-    "study": "scp",
+    "label_de": "8. Imput. monatl. HH-Nettoeink. (Euro) [8/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4838.848444381262,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4462.4254201026915,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi9hinc",
     "dataset": "hgen",
-    "label": "9. Imputed Monthly HH Net Inc. (EUR) [9/15]",
+    "label": "9. Imputed Monthly HH Net Inc. (Euros) [9/15]",
     "categories": {
       "values": [
         -10,
@@ -3028,23 +3033,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "9. Imput. monatl. HH-Nettoeink. (EUR) [9/15]",
-    "study": "scp",
+    "label_de": "9. Imput. monatl. HH-Nettoeink. (Euro) [9/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 5105.735277375015,
-      "3rd Qu.": 4887.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4691.358367823245,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi10hinc",
     "dataset": "hgen",
-    "label": "10. Imputed Monthly HH Net Inc. (EUR) [10/15]",
+    "label": "10. Imputed Monthly HH Net Inc. (Euros) [10/15]",
     "categories": {
       "values": [
         -10,
@@ -3108,23 +3113,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "10. Imput. monatl. HH-Nettoeink. (EUR) [10/15]",
-    "study": "scp",
+    "label_de": "10. Imput. monatl. HH-Nettoeink. (Euro) [10/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4718.988974486868,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4475.934845962347,
+      "3rd Qu.": 4900.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi11hinc",
     "dataset": "hgen",
-    "label": "11. Imputed Monthly HH Net Inc. (EUR) [11/15]",
+    "label": "11. Imputed Monthly HH Net Inc. (Euros) [11/15]",
     "categories": {
       "values": [
         -10,
@@ -3188,23 +3193,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "11. Imput. monatl. HH-Nettoeink. (EUR) [11/15]",
-    "study": "scp",
+    "label_de": "11. Imput. monatl. HH-Nettoeink. (Euro) [11/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4785.267184425642,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4453.721338493855,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi12hinc",
     "dataset": "hgen",
-    "label": "12. Imputed Monthly HH Net Inc. (EUR) [12/15]",
+    "label": "12. Imputed Monthly HH Net Inc. (Euros) [12/15]",
     "categories": {
       "values": [
         -10,
@@ -3268,23 +3273,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "12. Imput. monatl. HH-Nettoeink. (EUR) [12/15]",
-    "study": "scp",
+    "label_de": "12. Imput. monatl. HH-Nettoeink. (Euro) [12/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4866.654016368114,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3400.0,
+      "Mean": 4491.049411078264,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi13hinc",
     "dataset": "hgen",
-    "label": "13. Imputed Monthly HH Net Inc. (EUR) [13/15]",
+    "label": "13. Imputed Monthly HH Net Inc. (Euros) [13/15]",
     "categories": {
       "values": [
         -10,
@@ -3348,23 +3353,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "13. Imput. monatl. HH-Nettoeink. (EUR) [13/15]",
-    "study": "scp",
+    "label_de": "13. Imput. monatl. HH-Nettoeink. (Euro) [13/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4759.52414047662,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3300.0,
+      "Mean": 4480.460514625796,
+      "3rd Qu.": 4900.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi14hinc",
     "dataset": "hgen",
-    "label": "14. Imputed Monthly HH Net Inc. (EUR) [14/15]",
+    "label": "14. Imputed Monthly HH Net Inc. (Euros) [14/15]",
     "categories": {
       "values": [
         -10,
@@ -3428,23 +3433,23 @@
       ]
     },
     "scale": "number",
-    "label_de": "14. Imput. monatl. HH-Nettoeink. (EUR) [14/15]",
-    "study": "scp",
+    "label_de": "14. Imput. monatl. HH-Nettoeink. (Euro) [14/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4682.139768674108,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3325.5,
+      "Mean": 5024.115580753073,
+      "3rd Qu.": 4985.36,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
   {
     "name": "hgi15hinc",
     "dataset": "hgen",
-    "label": "15. Imputed Monthly HH Net Inc. (EUR) [15/15]",
+    "label": "15. Imputed Monthly HH Net Inc. (Euros) [15/15]",
     "categories": {
       "values": [
         -10,
@@ -3508,16 +3513,16 @@
       ]
     },
     "scale": "number",
-    "label_de": "15. Imput. monatl. HH-Nettoeink. (EUR) [15/15]",
-    "study": "scp",
+    "label_de": "15. Imput. monatl. HH-Nettoeink. (Euro) [15/15]",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 2200.0,
-      "Median": 3299.999999999998,
-      "Mean": 4778.452475514086,
-      "3rd Qu.": 4899.999999999998,
-      "Max.": 7100059.999999995,
-      "valid": 19580,
+      "Median": 3370.0,
+      "Mean": 4431.935754628909,
+      "3rd Qu.": 5000.0,
+      "Max.": 7100060.0,
+      "valid": 25708,
       "invalid": 142
     }
   },
@@ -3593,15 +3598,15 @@
         0,
         0,
         0,
-        16694,
-        3028
+        22095,
+        3755
       ]
     },
     "scale": "cat",
     "label_de": "Imputation Flag, monatl. HH-Nettoeink.",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 19722,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -3667,7 +3672,7 @@
         false
       ],
       "frequencies": [
-        2391,
+        2394,
         1270,
         684,
         404,
@@ -3675,17 +3680,17 @@
         178,
         48,
         0,
-        7779,
-        3820,
-        878,
-        1547
+        11495,
+        5742,
+        1145,
+        1767
       ]
     },
     "scale": "cat",
     "label_de": "HH-bezogener Erhebungsmonat",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 19722,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -3701,15 +3706,15 @@
     },
     "scale": "number",
     "label_de": "HH-bezogenes Erhebungsjahr",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 2021.0,
       "1st Qu.": 2021.0,
       "Median": 2021.0,
-      "Mean": 2021.288915931447,
+      "Mean": 2021.4576416015625,
       "3rd Qu.": 2022.0,
-      "Max.": 2022.0,
-      "valid": 19722,
+      "Max.": 2023.0,
+      "valid": 25850,
       "invalid": 0
     }
   },
@@ -3735,15 +3740,15 @@
         false
       ],
       "frequencies": [
-        11909,
-        7813
+        13891,
+        11959
       ]
     },
     "scale": "cat",
     "label_de": "Erhebungsmodus",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 19722,
+      "valid": 25850,
       "invalid": 0
     }
   }

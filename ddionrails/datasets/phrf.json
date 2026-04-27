@@ -11,15 +11,15 @@
     },
     "scale": "number",
     "label_de": "Unveränderliche Personen-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 2110000301.0,
-      "1st Qu.": 2110940602.0,
-      "Median": 2111893002.0,
-      "Mean": 2111897262.1375835,
-      "3rd Qu.": 2112846001.0,
+      "1st Qu.": 2110936802.0,
+      "Median": 2111889601.0,
+      "Mean": 2111895671.5282028,
+      "3rd Qu.": 2112845001.0,
       "Max.": 2113800001.0,
-      "valid": 26195,
+      "valid": 34837,
       "invalid": 0
     }
   },
@@ -35,15 +35,15 @@
     },
     "scale": "number",
     "label_de": "Aktuelle Haushalts-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 21100003.0,
-      "1st Qu.": 21109406.0,
-      "Median": 21118930.0,
-      "Mean": 21118972.60824585,
+      "1st Qu.": 21109368.0,
+      "Median": 21118899.0,
+      "Mean": 21119128.932600398,
       "3rd Qu.": 21128460.0,
-      "Max.": 21138000.0,
-      "valid": 26195,
+      "Max.": 22125622.0,
+      "valid": 34837,
       "invalid": 0
     }
   },
@@ -59,15 +59,15 @@
     },
     "scale": "number",
     "label_de": "Ursprüngliche Haushalts-ID",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 21100003.0,
-      "1st Qu.": 21109406.0,
-      "Median": 21118930.0,
-      "Mean": 21118972.60824585,
-      "3rd Qu.": 21128460.0,
+      "1st Qu.": 21109368.0,
+      "Median": 21118896.0,
+      "Mean": 21118956.701926112,
+      "3rd Qu.": 21128450.0,
       "Max.": 21138000.0,
-      "valid": 26195,
+      "valid": 34837,
       "invalid": 0
     }
   },
@@ -78,37 +78,42 @@
     "categories": {
       "values": [
         1,
-        2
+        2,
+        3
       ],
       "labels": [
         "[1] Wave 1, part 1 (2021/22)",
-        "[2] Wave 1, part 2 (2021/22)"
+        "[2] Wave 1, part 2 (2021/22)",
+        "[3] Wave 2 (2022/23)"
       ],
       "labels_de": [
         "[1] Welle 1, Teil 1 (2021/22)",
-        "[2] Welle 1, Teil 2 (2021/22)"
+        "[2] Welle 1, Teil 2 (2021/22)",
+        "[3] Welle 2 (2022/23)"
       ],
       "missings": [
+        false,
         false,
         false
       ],
       "frequencies": [
         17027,
-        9168
+        9168,
+        8642
       ]
     },
     "scale": "cat",
     "label_de": "Erhebungswelle",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "valid": 26195,
+      "valid": 34837,
       "invalid": 0
     }
   },
   {
     "name": "design_ap",
     "dataset": "phrf",
-    "label": "Inverse Sampling Probability Anchor Persons",
+    "label": "Inverse Sampling Probability AP",
     "categories": {
       "values": [],
       "labels": [],
@@ -116,16 +121,16 @@
       "frequencies": []
     },
     "scale": "number",
-    "label_de": "Inverse Ziehungswahrscheinlichkeit Ankerpersonen",
-    "study": "scp",
+    "label_de": "Inverse Ziehungswahrscheinlichkeit AP",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 0.0,
       "Median": 1612.620634920635,
-      "Mean": 1368.2287070819318,
+      "Mean": 1337.143255601666,
       "3rd Qu.": 2297.7783182192907,
       "Max.": 2297.7783182192916,
-      "valid": 26195,
+      "valid": 34837,
       "invalid": 0
     }
   },
@@ -141,15 +146,15 @@
     },
     "scale": "number",
     "label_de": "Inverse Ziehungswahrscheinlichkeit",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 70.14618682861328,
+      "Min.": 0.0,
       "1st Qu.": 453.1925964355469,
       "Median": 1149.13916015625,
-      "Mean": 1005.300537109375,
+      "Mean": 995.6358032226562,
       "3rd Qu.": 1149.13916015625,
       "Max.": 2297.7783203125,
-      "valid": 26195,
+      "valid": 34837,
       "invalid": 0
     }
   },
@@ -165,15 +170,39 @@
     },
     "scale": "number",
     "label_de": "Hochrechnungsfaktor",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
-      "Min.": 138.07601283286886,
-      "1st Qu.": 1992.4230273324183,
-      "Median": 3395.3173754325903,
-      "Mean": 5223.069822485209,
-      "3rd Qu.": 6413.954585038786,
-      "Max.": 67220.52627685638,
-      "valid": 26195,
+      "Min.": 107.98843820544649,
+      "1st Qu.": 1899.8270625591786,
+      "Median": 3568.8586393271758,
+      "Mean": 5956.468410023822,
+      "3rd Qu.": 7233.065698850117,
+      "Max.": 87190.67297734672,
+      "valid": 34837,
+      "invalid": 0
+    }
+  },
+  {
+    "name": "phrf_ap",
+    "dataset": "phrf",
+    "label": "Weighting Factor AP",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "scale": "number",
+    "label_de": "Hochrechnungsfaktor AP",
+    "study": "soep-fgz",
+    "statistics": {
+      "Min.": 0.0,
+      "1st Qu.": 0.0,
+      "Median": 4346.858964163897,
+      "Mean": 5956.468410023829,
+      "3rd Qu.": 7536.428858248718,
+      "Max.": 124303.05352946375,
+      "valid": 34837,
       "invalid": 0
     }
   },
@@ -189,15 +218,15 @@
     },
     "scale": "number",
     "label_de": "Inverse Bleibewahrscheinlichkeit ",
-    "study": "scp",
+    "study": "soep-fgz",
     "statistics": {
       "Min.": 0.0,
       "1st Qu.": 0.0,
       "Median": 0.0,
-      "Mean": 0.6497443914413452,
-      "3rd Qu.": 1.4445062279701233,
-      "Max.": 10.321307182312012,
-      "valid": 26195,
+      "Mean": 0.7517993450164795,
+      "3rd Qu.": 1.329461932182312,
+      "Max.": 7.498714923858643,
+      "valid": 34837,
       "invalid": 0
     }
   }
